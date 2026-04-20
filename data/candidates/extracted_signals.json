@@ -1,0 +1,880 @@
+[
+  {
+    "asset_domains": [
+      "iana.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "iana.org",
+    "fetched_at": "2026-04-19T14:32:54.052410+00:00",
+    "final_url": "http://www.iana.org/help/example-domains",
+    "footer_legal_snippet": "Example DomainsDomainsProtocolsNumbersAboutExample DomainsAs described in RFC 2606 and RFC 6761, a number of domains such as example.com and example.org are maintained for documentation purposes. These domains may be used as illustrative examples in documents without prior coordination with us. They are not available for registration or transfer.We provide a web service on the example domain hosts to provide basic information on the purpose of the domain. These web services are provided as best effort, but are not designed to support production applications. While incidental traffic for incorrectly configured applications is expected, please do not design applications that require the example domains to have operating HTTP service.Further ReadingIANA-managed Reserved DomainsLast revised 2017-05-13.Domain NamesRoot Zone Registry.INT Registry.ARPA RegistryIDN RepositoryNumber ResourcesAbuse InformationProtocolsProtocol RegistriesTime Zone DatabaseAbout UsNewsPerformanceExcellenceArchiveContact UsThe IANA functions coordinate the Internet\u2019s globally unique identifiers, and are provided by Public Technical Identifiers, an affiliate of ICANN.Privacy PolicyTerms of Service",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [
+      "support_like_path"
+    ],
+    "policy_links": [
+      "https://icann.org/privacy/policy",
+      "https://icann.org/privacy/tos"
+    ],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "iana.org"
+    ],
+    "status": 200,
+    "support_links": [
+      "http://iana.org/contact"
+    ],
+    "text_hits": [],
+    "title": "Example Domains",
+    "url": "https://iana.org/domains/example"
+  },
+  {
+    "asset_domains": [],
+    "contact_emails": [],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "pti.icann.org",
+    "fetched_at": "2026-04-19T14:32:54.070608+00:00",
+    "final_url": "https://pti.icann.org/",
+    "footer_legal_snippet": "\ufffd\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffdV\ufffdn\ufffd8\u0010}\ufffdW\ufffd*\u0016N\ufffd\u0232c;m%;hsw\ufffdi.M\ufffd4/\u0005%R\u0016 \ufffdTIZ\ufffd\u0004\ufffd\ufffd R\ufffd\ufffd\ufffd\"\u0005\ufffdma\ufffd&g8\ufffdg\u038cIv_\u0012\ufffd\ufffdiAQfr\ufffd\ufffd\ufffdk\u007f\u0010\ufffdb\ufffd\ufffd\ufffd\u0010\ufffd\u0006\ufffd1\ufffd\ufffd0\ufffd\ufffdD \ufffd\ufffd\ufffd\ufffd.\ufffd\ufffd\ufffdv9\u0013\ufffdHQ\ufffd\ufffd E\ufffd-hb<\ufffd)\ufffd\ufffd\ufffd\u0318B\ufffdA\ufffdB\ufffd\ufffd\u000f\ufffd\ufffd\ufffd%\ufffdD\ufffd J\ufffd\ufffdZ*6`b\ufffd\u0005B\u075c\u001a\ufffd\ufffd +MM\ufffd\u001b\ufffd\ufffd\u007f\ufffd9\ufffda\ufffd\ufffd\u074bQ\ufffdY\ufffd\ufffdi\ufffd \ufffd`\ufffd\ufffd\ufffd \ufffdRF\ufffdF\u001b\u0017\ufffd\ufffd\ufffdnP\ufffd\ufffd11\ufffdtA!\ufffd \ufffd\u0005\ufffdi\ufffd+\u0019 \u0017R\u0001I\ufffd \ufffd\ufffd\ufffd1#&\ufffd\u0011Z\ufffd\ufffd\ufffdn\ufffd\ufffd\ufffd`\ufffda\ufffdk\u060d\ufffd\ufffd\u0015\ufffdc\ufffd \ufffd=du\ufffdq\ufffd\u00074\ufffd\ufffd\ufffd\ufffd\ufffd7\u0165\ufffd\ufffd\ufffd \ufffdf \ufffd\ufffd[)\ufffd\u0014'\ufffda1\ufffd\u0019\ufffd\ufffd\ufffd3l\ufffdb6/\b\u04b5\ufffd9]H(\ufffd\ufffd1\ufffd,c\ufffd\u0006\ufffd \u06cdF\ufffdU\u0012\ufffd\u0014\ufffd\ufffdW\ufffd\u0003 \ufffd T\ufffdD\u0007e\ufffd\ufffd R~\ufffd]}\ufffd1\ufffd\ufffd\ufffd_ \ufffd\ufffd_\ufffd\ufffd\ufffd\u0018>\u041f\ufffd\ufffdX\ufffd\ufffd\ufffd&J\ufffdf\ufffd\u69b5\ufffdh^_\u0002\ufffd\u0014\ufffd3\ufffd/\ufffd\ufffds\ufffd9\u001b\ufffdf4\ufffdn\u0017\ufffd\bt\ufffd~V\ufffd4#N @\ufffd\ufffd\ufffd \u0013\ufffde\ufffd\ufffd\u0013\ufffd\u001b\ufffd\ufffd\ufffd\ufffd\ufffd*hD\ufffd.8\ufffd\ufffdL8\ufffd\ufffd\ufffd\ufffd>\u001ag\ufffdP\u0017m\ufffd\u001b+\\Dc\ufffd\ufffdoGK0 Y \ufffd\"\ufffdFE@7\ufffdg\ufffd\ufffd\u02cbb3R\u0000\u0000,`{ \ufffd8\u001b\ufffd\ufffd\ufffdE:\ufffd\ufffdd\ufffd \u0016\ufffdM\u0018t \ufffd\ufffd\u0760*\ufffd \u0014\ufffd\ufffd4\ufffd%\ufffd\ufffd|dl\u000e\u4fee\ufffd\ufffd\ufffd\ufffd\u0002>([\ufffdNp\u007fz\ufffd\ufffd+\ufffd\u07be\ufffd\u001b\ufffd\ufffd\ufffd\ufffdf|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdrG \ufffd\ufffd\ufffd\ufffd'\ufffd\ufffd\u0507\ufffd\ufffd\u0019\ufffd\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffdl\ufffd\u000f\ufffd'e+\ufffd\ufffdW\ufffdn\ufffd\ufffd\ufffdn\ufffdO\ufffd\ufffdb\ufffd\ufffd\ufffd)\ufffd\ufffd\ufffd\ufffdg\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffdw\ufffd`\ufffd<9\ufffd\ufffdgt\u0582\ufffd\ufffd$\ufffdgr\ufffd\ufffd\ufffdm\ufffdm\ufffd\ufffd~x\ufffd\\\ufffd\ufffdY!\ufffd\ufffd\ufffd\b>&\u00d1\u0006o\ufffd\ufffd\ufffd<\ufffdd\ufffd\ufffdc\u0005'q\u0618k\ufffd\ufffd\u0018<\ufffd\ufffd z\u0013\ufffd\ufffd\u000e;\ufffd\u0013\ufffd`\ufffd\u0110#\ufffd\u0006\ufffd5u \ufffd\ufffd\ufffdaLA5 \u0003\ufffd\ufffd\ufffd\ufffdqLdPJ\ufffdt\u07e8\ufffd\ufffdXo#\ufffdqr?Pr$H\ufffd*\ufffd\ufffd\u0013\ufffd\ufffd\ufffd \ufffd%\ufffd6\ufffd\ufffd\u0013 \u046d\ufffdt\ufffdJ\ufffd\ufffd\u022d\u000f\ufffdM\ufffd4\ufffd \u0014U,\ufffd\ufffd\ufffd\ufffdT\ufffdN\ufffdH.U\ufffd\ufffd\ufffd\ufffd\ufffd9\ufffd\ufffd\ufffd\ufffd\ufffdRO~\\3Px\ufffdn\ufffd9a\ufffd/2\ufffd\ufffd\ufffdo~ \ufffd\u0014\ufffd}N \u00e8PL\ufffd\ufffd\ufffd\u000fk\ufffd\ufffd\ufffd,\ufffd\ufffd\ufffd\ufffd%\ufffd\ufffdE\u0006\ufffdVI4\u001ak\ufffde.\u000e\ufffdwK\ufffd\ufffd\ufffd7\ufffd\u0327\ufffdo\\\ufffdd\u0019&r\ufffdz\u007f \ufffd\ufffd_\ufffd\ufffd\ufffd \ufffd \ufffd\ufffd\ufffd;I>\ufffd\ufffd\ufffd\ufffdj\ufffdV=\ufffdv\ufffd:\ufffd\ufffd(]\ufffd *\ufffd\u007f\ufffd:\ufffd\ufffd\ufffd\ufffd9\ufffd'Z{\ufffdib\ufffd\u0019\ufffd\ufffdCRp\ufffdI\ufffd\u0003\ufffdu\ufffdr\ufffd0\ufffd5o\ufffd+\ufffdN\u0014+\u031f\ufffd\ufffd \ufffd\u0003\ufffd\ufffdy\u0475\u0019\ufffd# \u0017\ufffd\ufffd\ufffd\ufffd\ufffdZ \ufffd}\u0015\u0002\u0013\ufffdB\ufffd\ufffd\u0003\ufffdg\ufffd\ua7c1\ufffd\ufffd\u0014\u0363\ufffd6\ufffd \u0013\ufffd\u0015yU\ufffd\ufffd2l\ufffd<\ubc73X\ufffd4\ufffd=\ufffdi$\ufffdA\ufffd\u010c\ufffdS4f&\ufffd\ufffd\u0014 \ufffdTQ\ufffd\ufffd\u0005@\ufffd1~\ufffd\u0012\ufffd\u000e7@p\ufffd\ufffd\ufffd\ufffdOS\ufffd\ufffd \ufffd |\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffdK2\ufffd\ufffdj\ufffdTh=4\ufffdw\ufffd\u007f\ufffd\ufffd}\u0639=\ufffdmTP \ufffd\ufffd\u0017\ufffd?\u0000\u0000\u0000\ufffd\ufffd\u0003\u0000\ufffd\ufffd\u5442 \u0000\u0000",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": 200,
+    "support_links": [],
+    "text_hits": [],
+    "title": "",
+    "url": "https://pti.icann.org/"
+  },
+  {
+    "asset_domains": [],
+    "contact_emails": [],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "icann.org",
+    "fetched_at": "2026-04-19T14:32:54.077740+00:00",
+    "final_url": "https://www.icann.org/",
+    "footer_legal_snippet": "",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": 403,
+    "support_links": [],
+    "text_hits": [],
+    "title": "",
+    "url": "https://icann.org/"
+  },
+  {
+    "asset_domains": [
+      "static.fsf.org"
+    ],
+    "contact_emails": [
+      "campaigns@fsf.org",
+      "campaigns@fsf.org.Back"
+    ],
+    "content_type": "text/html;charset=utf-8",
+    "domain": "fsf.org",
+    "fetched_at": "2026-04-19T14:32:54.084496+00:00",
+    "final_url": "https://www.fsf.org/free-software-supporter/",
+    "footer_legal_snippet": "Free Software Supporter \u2014 Free Software Foundation \u2014 Working together for free softwareSkip to content, sitemap or skip to search.Personal toolsLog inHelp!Members forumAboutCampaignsLicensingMembershipResourcesCommunity\u2665Donate\u2665ShopSearchYou are here:Home \u203a Free Software SupporterInfo Free Software Supporter by Free Software Foundation Contributions \u2014 Published on Dec 06, 2011 05:28 PM We send out a monthly email newsletter covering stories of interest to the free software community, as well as occasional action alerts when urgent issues arise. Use this link to subscribe to the Supporter.The Free Software Supporter will keep you up to date each month on news from the free software movement. The Free Software Supporter is published in English, Spanish, Brazilian Portuguese, and French.If you would like to receive the Free Software Supporter in Spanish, Brazilian Portuguese, or French, please specify your language preference in your user profile.If you have suggestions for news items that should be included, please send them to us at campaigns@fsf.org.Back issues2026202520242023202220212020201920182017201620152014201320122011201020092008Document ActionsShare on social networksSyndicat",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [
+      "support_like_path"
+    ],
+    "policy_links": [
+      "https://my.fsf.org/donate/privacypolicy.html"
+    ],
+    "provider_mentions": [
+      "pragmatic"
+    ],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": 200,
+    "support_links": [
+      "http://fsf.org/free-software-supporter/subscribe",
+      "http://fsf.org/help-menu",
+      "https://fsf.org/about/contact.html",
+      "https://fsf.org/free-software-supporter/",
+      "https://fsf.org/free-software-supporter/2008/",
+      "https://fsf.org/free-software-supporter/2009/",
+      "https://fsf.org/free-software-supporter/2010/",
+      "https://fsf.org/free-software-supporter/2011/",
+      "https://fsf.org/free-software-supporter/2012/",
+      "https://fsf.org/free-software-supporter/2013/",
+      "https://fsf.org/free-software-supporter/2014/",
+      "https://fsf.org/free-software-supporter/2015/",
+      "https://fsf.org/free-software-supporter/2016/",
+      "https://fsf.org/free-software-supporter/2017/",
+      "https://fsf.org/free-software-supporter/2018/",
+      "https://fsf.org/free-software-supporter/2019/",
+      "https://fsf.org/free-software-supporter/2020/",
+      "https://fsf.org/free-software-supporter/2021/",
+      "https://fsf.org/free-software-supporter/2022/",
+      "https://fsf.org/free-software-supporter/2023/",
+      "https://fsf.org/free-software-supporter/2024/",
+      "https://fsf.org/free-software-supporter/2025/",
+      "https://fsf.org/free-software-supporter/2026/",
+      "https://fsf.org/share?t=Free+Software+Supporter&u=https%3A%2F%2Fwww.fsf.org%2Ffree-software-supporter%2Ffree-software-supporter",
+      "https://gnu.org/licenses/gpl-faq.html"
+    ],
+    "text_hits": [],
+    "title": "Free Software Supporter \u2014 Free Software Foundation \u2014 Working together for free software",
+    "url": "https://fsf.org/fss"
+  },
+  {
+    "asset_domains": [
+      "gnu.org"
+    ],
+    "contact_emails": [
+      "gnu@gnu.org",
+      "webmasters@gnu.org"
+    ],
+    "content_type": "text/html",
+    "domain": "gnu.org",
+    "fetched_at": "2026-04-19T14:32:54.095005+00:00",
+    "final_url": "https://www.gnu.org/",
+    "footer_legal_snippet": "technology and network use have made these freedoms even more important now than they were in 1983.Nowadays the free software movement goes far beyond developing the GNU system. See the Free Software Foundation's web site for more about what we do, and a list of ways you can help.More about GNUGNU is a Unix-like operating system. That means it is a collection of many programs: applications, libraries, developer tools, even games. The development of GNU, started in January 1984, is known as the GNU Project. Many of the programs in GNU are released under the auspices of the GNU Project; those we call GNU packages.The name \u201cGNU\u201d is a recursive acronym for \u201cGNU's Not Unix.\u201d \u201cGNU\u201d is pronounced g'noo, as one syllable, like saying \u201cgrew\u201d but replacing the r with n.The program in a Unix-like system that allocates machine resources and talks to the hardware is called the \u201ckernel.\u201d GNU is typically used with a kernel called Linux. This combination is the GNU/Linux operating system. GNU/Linux is used by millions, though many call it \u201cLinux\u201d by mistake.GNU's own kernel, the GNU Hurd, was started in 1990 (before Linux was started). Volunteers continue developing the Hurd because it is an inter",
+    "iframe_domains": [],
+    "meta_description": "Since 1983, developing the free Unix style operating system GNU, so that computer users can have the freedom to share and improve the software they use.",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": 200,
+    "support_links": [
+      "https://fsf.org/associate/support_freedom?referrer=4052",
+      "https://fsf.org/blogs/community/help-others-find-free-software-watch-and-share-escape-to-freedom",
+      "https://gnu.org/contact/",
+      "https://gnu.org/gnu/gnu-linux-faq.html",
+      "https://gnu.org/help",
+      "https://gnu.org/help/help.html",
+      "https://gnu.org/help/music-subtraction.html",
+      "https://gnu.org/help/priority-projects.html"
+    ],
+    "text_hits": [],
+    "title": "The GNU Operating System and the Free Software Movement",
+    "url": "https://gnu.org/"
+  },
+  {
+    "asset_domains": [],
+    "contact_emails": [],
+    "content_type": null,
+    "domain": "directory.fsf.org",
+    "fetched_at": "2026-04-19T14:34:44.508429+00:00",
+    "final_url": "https://directory.fsf.org/",
+    "footer_legal_snippet": "",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [
+      "fetch_error: <urlopen error _ssl.c:1063: The handshake operation timed out>"
+    ],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": null,
+    "support_links": [],
+    "text_hits": [],
+    "title": "",
+    "url": "https://directory.fsf.org/"
+  },
+  {
+    "asset_domains": [
+      "h-node.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "h-node.org",
+    "fetched_at": "2026-04-19T14:34:44.520328+00:00",
+    "final_url": "https://h-node.org/",
+    "footer_legal_snippet": "uesSearchDownloadHelpWikiFAQ Home If you insert a new printer to h-node, please try to verify if the printer tracks users (see here) and fill the entry named \"does it adopt any techniques to track users?\" Objectives: The h-node project aims at the construction of a hardware database in order to identify what devices work with a fully free operating system. The h-node.org website is structured like a wiki in which all the users can modify or insert new contents. The h-node project is developed in collaboration and as an activity of the FSF. Contribute: You can contribute by creating an account at h-node.org and editing its user-generated contents. All your modification will be saved in the history of the product you are editing/adding. Each revision (the current one or the old ones) will be marked by the name of the user who created it.You can also contribute by suggesting new hardware that should be added to the database or features that should be implemented. Free software: In order to add a device to the h-node database, you must verify that it works using only free software. For this purpose, you must be running either: 1) A GNU/Linux distribution that is on the FSF's list of en",
+    "iframe_domains": [],
+    "meta_description": "free software project with the aim of collecting information about the hardware that works with a fully free operating system",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "h-node.org"
+    ],
+    "status": 200,
+    "support_links": [
+      "http://fsf.org/associate/support_freedom/join_fsf?referrer=2442",
+      "https://h-node.org/contact/index/en",
+      "https://h-node.org/faq/page/en/FAQ",
+      "https://h-node.org/help/page/en/Help"
+    ],
+    "text_hits": [],
+    "title": "home - h-node.org",
+    "url": "https://h-node.org/"
+  },
+  {
+    "asset_domains": [
+      "snowflake.torproject.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html",
+    "domain": "snowflake.torproject.org",
+    "fetched_at": "2026-04-19T14:34:44.536384+00:00",
+    "final_url": "https://snowflake.torproject.org/",
+    "footer_legal_snippet": "Snowflake English (en) \u0639\u0631\u0628\u064a\u0629 (ar)\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f (be)Deutsch (de)Espa\u00f1ol (es)\u0641\u0627\u0631\u0633\u06cc (fa)\u65e5\u672c\u8a9e (ja)\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d4\u10dc\u10d0 (ka)Nederlands (nl)polski (pl)Svenska (sv)T\u00fcrk\u00e7e (tr)\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (uk)\u7b80\u4f53\u4e2d\u6587 (zh-CN)\u6b63\u9ad4\u4e2d\u6587 (zh-TW)Get Snowflake Free your connection Use Snowflake to give censorship the slip in places where Tor is blocked. BLOCKED USERStart using Snowflake Now Snowflake comes embedded in Tor-powered apps like Tor Browser, Orbot, and Ricochet-Refresh. If any of these apps can\u2019t connect to the Tor network, you can use Snowflake to unblock Tor. Read the FAQs Tor Browser Get it from: torproject.org/downloadAvailable for Desktop & Android Snowflake Ready to Use Made by Tor Project View Detail Orbot Get it from: orbot.app Available for Android & iOS Snowflake Ready to Use Made by Guardian Project View Detail Ricochet-Refresh Get it from: ricochetrefresh.net Available for Desktop Snowflake Ready to Use Made by Blueprint for Free Speech View Detail UNBLOCKED USERPowered by volunteersDonate your bandwidth and help Tor users circumvent censorship by deploying your own Snowflake.127,599 Snowflakes (and counting)Install the browser addonThe easiest way to spin up a Snowflake is to install the browser addon, enable ",
+    "iframe_domains": [
+      "embed-snowflake.torproject.org"
+    ],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "snowflake.torproject.org"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://torproject.org/contact/"
+    ],
+    "text_hits": [],
+    "title": "Snowflake",
+    "url": "https://snowflake.torproject.org/"
+  },
+  {
+    "asset_domains": [
+      "maxcdn.bootstrapcdn.com",
+      "ushistory.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html",
+    "domain": "ushistory.org",
+    "fetched_at": "2026-04-19T14:34:44.547916+00:00",
+    "final_url": "https://ushistory.org/franklin/autobiography/page55.htm",
+    "footer_legal_snippet": "The Autobiography of Benjamin Franklin MenuHomeBioSciencePhiladelphiaIn his own wordsTemple's DiaryFun & GamesMore!Home Bio Science Philadelphia In his own words Temple's Diary Fun & Games More! page 55 In order of time, I should have mentioned before that having, in 1742, invented an open stove for the better warming of rooms, and at the same time saving fuel, as the fresh air admitted was warmed in entering, I made a present of the model to Mr. Robert Grace, one of my early friends, who, having an ironfurnace, found the casting of the plates for these stoves a profitable thing, as they were growing in demand. To promote that demand, I wrote and published a pamphlet, entitled \"An Account of the new-invented Pennsylvania Fireplaces; wherein their Construction and Manner of Operation is particularly explained; their Advantages above every other Method of warning Rooms demonstrated; and all Objections that have been raised against the Use of them answered and obviated,\" etc. This pamphlet had a good effect. Governor Thomas was so pleased with the construction of this stove, as described in it, that he offered to give me a patent for the sole vending of them for a term of years; but I",
+    "iframe_domains": [],
+    "meta_description": "The Autobiography of Benjamin Franklin. Complete text.",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "ajax.googleapis.com",
+      "apis.google.com",
+      "assets.pinterest.com",
+      "googletagmanager.com",
+      "maxcdn.bootstrapcdn.com",
+      "pagead2.googlesyndication.com",
+      "ushistory.org"
+    ],
+    "status": 200,
+    "support_links": [],
+    "text_hits": [],
+    "title": "The Autobiography of Benjamin Franklin",
+    "url": "https://ushistory.org/franklin/autobiography/page55.htm"
+  },
+  {
+    "asset_domains": [
+      "planet.gnu.org",
+      "salsa.debian.org",
+      "trisquel.info"
+    ],
+    "contact_emails": [
+      "P@draigBrady.com",
+      "bcl@redhat.com",
+      "bug-gnu-pspp@gnu.org",
+      "bug-texinfo@gnu.org",
+      "collin.funk1@gmail.com",
+      "hipsterelectron@circumstances.run",
+      "info-gnu@gnu.org",
+      "pixelbeat@gnu.org",
+      "webmasters@gnu.org"
+    ],
+    "content_type": "text/html",
+    "domain": "planet.gnu.org",
+    "fetched_at": "2026-04-19T14:34:44.555631+00:00",
+    "final_url": "https://planet.gnu.org/",
+    "footer_legal_snippet": ": Autoconf 2.73 Automake 1.18.1 Gnulib 2026-04-13 c754c51f0f2b9a1e22d0d3eadfefff241de0ea48 NEWS * Noteworthy changes in release 1.10 (2026-04-14) [stable] ** Bug fixes 'time --help' no longer incorrectly lists the short option -h as being supported. Previously it was listed as being equivalent to --help. [bug introduced in time-1.8] 'time --help' no longer emits duplicate percent signs in the description of the --portability option. [bug introduced in time-1.8] time now opens the file specified by --output with its close-on-exec flag set. Previously the file descriptor would be leaked into the child process. [This bug was present in \"the beginning\".] time no longer appends the program name to the output when the format string contains a trailing backslash. [This bug was present in \"the beginning\".] ** Improvements time now uses the more portable waitpid and getrusage system calls instead of wait3. time can now be built using a C23 compiler. time now uses unlocked stdio functions on platforms that provide them.15 April, 2026 04:34AM by Collin Funk April 13, 2026FSF EventsFree Software Directory meeting on IRC: Friday, April 17, starting at 12:00 EDT (16:00 UTC) Join the FSF and frie",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [
+      "https://hp.com/us-en/privacy/hp-advertising.html",
+      "https://theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version"
+    ],
+    "provider_mentions": [
+      "google"
+    ],
+    "rebrand_phrase_hits": [
+      "previously"
+    ],
+    "script_domains": [],
+    "status": 200,
+    "support_links": [
+      "http://fsf.org/associate/support_freedom/join_fsf?referrer=2442",
+      "http://sam-d.com/blog/adding-appimage-support-to-the-guix-package-manager/",
+      "https://darnassus.sceen.net/~hurd-web/faq/",
+      "https://guix.gnu.org/en/contact",
+      "https://guix.gnu.org/en/contact/irc/",
+      "https://guix.gnu.org/manual/1.5.0/en/html_node/AppArmor-Support.html"
+    ],
+    "text_hits": [],
+    "title": "Planet GNU",
+    "url": "https://planet.gnu.org/"
+  },
+  {
+    "asset_domains": [
+      "savannah.gnu.org"
+    ],
+    "contact_emails": [
+      "collin.funk1@gmail.com"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "savannah.gnu.org",
+    "fetched_at": "2026-04-19T14:34:44.603198+00:00",
+    "final_url": "https://savannah.gnu.org/news/?id=10881",
+    "footer_legal_snippet": "reas Schwab (1) Assaf Gordon (10) Collin Funk (65) Dominique Martinet (1) Petr P\u00edsa\u0159 (2) Collin [on behalf of the time maintainers] ================================================================== Here is the GNU time home page: https://gnu.org/s/time/ Here are the compressed sources: https://ftp.gnu.org/gnu/time/time-1.10.tar.gz (832KB) https://ftp.gnu.org/gnu/time/time-1.10.tar.xz (572KB) Here are the GPG detached signatures: https://ftp.gnu.org/gnu/time/time-1.10.tar.gz.sig https://ftp.gnu.org/gnu/time/time-1.10.tar.xz.sig Use a mirror for higher download bandwidth: https://www.gnu.org/order/ftp.html Here are the SHA256 and SHA3-256 checksums: SHA256 (time-1.10.tar.gz) = 6MKftKtZnYR45B6GGPUNuK7enJCvJ9DS7yiuUNXeCcM= SHA3-256 (time-1.10.tar.gz) = zDjyfyzfABsSZp7lwXeYr368VzjZMkNPUJNnfpIakGk= SHA256 (time-1.10.tar.xz) = cGv3uERMqeuQN+ntoY4dDrfCMnrn2MLOOkgjxfgMexE= SHA3-256 (time-1.10.tar.xz) = U/Z0kMenoHkc7+rkCHMeyku8nXvIPppoQ2jq3B50e/A= Verify the base64 SHA256 checksum with 'cksum -a sha256 --check' from coreutils-9.2 or OpenBSD's cksum since 2007. Verify the base64 SHA3-256 checksum with 'cksum -a sha3 --check' from coreutils-9.8. Use a .sig file to verify that the correspondin",
+    "iframe_domains": [],
+    "meta_description": "Savannah is a central point for development, distribution\nand maintenance of free software, both GNU and non-GNU.",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [
+      "previously"
+    ],
+    "script_domains": [],
+    "status": 200,
+    "support_links": [
+      "https://fsf.org/associate/support_freedom/join_fsf?referrer=2442",
+      "https://gnu.org/help/help.html",
+      "https://savannah.gnu.org/contact.php",
+      "https://savannah.gnu.org/support/?func=additem&group=time",
+      "https://savannah.gnu.org/support/?func=browse&group=time&set=open",
+      "https://savannah.gnu.org/support/?func=digest&group=time",
+      "https://savannah.gnu.org/support/?func=search&group=time",
+      "https://savannah.gnu.org/support/?group=administration",
+      "https://savannah.gnu.org/support/?group=time",
+      "https://savannah.gnu.org/support/admin/field_values.php?group=time",
+      "https://savannah.gnu.org/support/dependencies.php?group=time",
+      "https://savannah.gnu.org/support/reporting.php?group=time"
+    ],
+    "text_hits": [],
+    "title": "GNU Time - News [Savannah]",
+    "url": "https://savannah.gnu.org/news/?id=10881"
+  },
+  {
+    "asset_domains": [
+      "my.fsf.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "my.fsf.org",
+    "fetched_at": "2026-04-19T14:34:44.610102+00:00",
+    "final_url": "https://my.fsf.org/give-students-userfreedom",
+    "footer_legal_snippet": "Give Students #UserFreedom | Free Software FoundationMenuGive Students #UserFreedomTo access the petition form itself, you must view this page while logged in. Clicking the login link will reload this page if you're already logged in. If you don't have a my.fsf.org account, please create one here.Be sure to read the blog post announcing the petition for more information.Signers:Overwhelmingly, students are being required to use tools in the classroom that they are forbidden to study, share, or modify. Not only do programs like Google Classroom, Microsoft Teams, or Zoom invite a potentially malicious third-party into the educational environment, but more importantly, they increase society's dependence on proprietary software, software that denies its users their freedom.By contrast, free software is software that respects the freedom of its users. In a perfect fit with the principles of good education and science, free software allows its users to:Use the program for any purpose, not discriminating against specific fieldsStudy the source code of the program to understand how it works, and change it to fit their needsShare the program in order to help othersDistribute modified copies",
+    "iframe_domains": [
+      "static.fsf.org"
+    ],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [
+      "https://eff.org/wp/school-issued-devices-and-student-privacy",
+      "https://fsf.org/about/free-software-foundation-privacy-policy",
+      "https://theverge.com/2020/5/1/21244058/google-meet-microsoft-teams-webex-personal-data-collection-privacy-policy-concerns"
+    ],
+    "provider_mentions": [
+      "google"
+    ],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "my.fsf.org"
+    ],
+    "status": 200,
+    "support_links": [],
+    "text_hits": [],
+    "title": "Give Students #UserFreedom | Free Software Foundation",
+    "url": "https://my.fsf.org/give-students-userfreedom"
+  },
+  {
+    "asset_domains": [],
+    "contact_emails": [
+      "campaigns@fsf.org.Copyright"
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "libreplanet.org",
+    "fetched_at": "2026-04-19T14:34:44.615099+00:00",
+    "final_url": "https://libreplanet.org/wiki/Group:Copilot_Watch_Group",
+    "footer_legal_snippet": "Group - LibrePlanetNavigation menuToggle navigationAbout About LibrePlanetMission StatementFounding documentsSupport this CommunityCode of ConductAnti-harassment policyTeams ActivistsWiki HelpersLibrePlanet ArtistsFSF Community TeamLocal & Student TeamsConferences LibrePlanet ConferenceNon-officialGet involved ParticipateDiscussion channelsEventsLoginGroup: Copilot Watch GroupFrom LibrePlanet Jump to: navigation, searchGroup:Copilot Watch Group en en Contents1About1.1Future events:1.2Past events:1.3Ongoing:1.4Related articles1.5TimelineAboutAn FSF + community group / wiki page to document developments in the Microsoft GitHub Copilot project and AI pair-programming generally. Future events:2023-05-30 - BigCode: Open and responsible research on code-generating AI systems https://www.fsf.org/events/libreplanet-talk-bigcode-open-and-responsible-research-on-code-generating-ai-systemsPast events:2022-03-03 - Copilot IRC Q&A with Robert F.J. Seddon https://www.fsf.org/events/copilot-irc-q-a-with-robert-f-j-seddon2022-03-07 - FSF moderated general IRC discussion on the papers selected from Copilot call for whitepapers https://www.fsf.org/events/join-us-for-a-general-irc-discussion-on-the-p",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [
+      "https://fsf.org/about/free-software-foundation-privacy-policy",
+      "https://fsf.org/blogs/licensing/fsf-funded-call-for-white-papers-on-philosophical-and-legal-questions-around-copilot",
+      "https://fsf.org/events/libreplanet-talk-bigcode-open-and-responsible-research-on-code-generating-ai-systems",
+      "https://libreplanet.org/wiki/Anti-harassment_policy"
+    ],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "libreplanet.org"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://fsf.org/about/contact",
+      "https://fsf.org/about/contact.html",
+      "https://libreplanet.org/wiki/Group:LibrePlanet_Wiki_Helpers"
+    ],
+    "text_hits": [],
+    "title": "Group:Copilot Watch Group - LibrePlanet",
+    "url": "https://libreplanet.org/wiki/Group:Copilot_Watch_Group"
+  },
+  {
+    "asset_domains": [
+      "my.fsf.org"
+    ],
+    "contact_emails": [
+      "membership@fsf.org"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "my.fsf.org",
+    "fetched_at": "2026-04-19T14:34:44.621232+00:00",
+    "final_url": "https://my.fsf.org/donate/",
+    "footer_legal_snippet": "thoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMicronesia, Federated States ofMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth MacedoniaNorthern Mariana IslandsNorwayOmanPakistanPalauPalestine, State ofPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalQatarReunionRomaniaRussian FederationRwandaSaint HelenaSaint Kitts and NevisSaint LuciaSaint Pierre and MiquelonSaint Vincent and the GrenadinesSamoaSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSerbia and MontenegroSeychellesSierra LeoneSingaporeSint Maarten (Dutch Part)SlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia and the South Sandwich IslandsSouth SudanSpainSri LankaSudanSurinameSvalbard and Jan MayenSwedenSwitzerlandSyrian Arab RepublicTaiwanTajikistanTanzania, United Republic ofThailandTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks and Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States Minor Outlying IslandsUrugu",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [
+      "https://fsf.org/about/free-software-foundation-privacy-policy"
+    ],
+    "provider_mentions": [
+      "paypal"
+    ],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "my.fsf.org"
+    ],
+    "status": 200,
+    "support_links": [],
+    "text_hits": [
+      "billing",
+      "credit card",
+      "payment method",
+      "paypal"
+    ],
+    "title": "Support the Free Software Foundation | Free Software Foundation",
+    "url": "https://donate.fsf.org/"
+  },
+  {
+    "asset_domains": [],
+    "contact_emails": [],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "shop.fsf.org",
+    "fetched_at": "2026-04-19T14:34:44.633736+00:00",
+    "final_url": "https://shop.fsf.org/",
+    "footer_legal_snippet": "",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": 503,
+    "support_links": [],
+    "text_hits": [],
+    "title": "",
+    "url": "https://shop.fsf.org/"
+  },
+  {
+    "asset_domains": [
+      "fsfe.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "fsfe.org",
+    "fetched_at": "2026-04-19T14:34:44.638004+00:00",
+    "final_url": "https://fsfe.org/",
+    "footer_legal_snippet": "Free Software Foundation Europe Free Software Foundation Europe is a charity that empowers users to control technology. Software is deeply involved in all aspects of our lives. Free Software gives everybody the rights to use, understand, adapt, and share software. These rights help support other fundamental rights like freedom of speech, freedom of press, and privacy. Learn more...SFP#50: Policy and EU: How NGI wants to save the Internet and what's next?Software Freedom PodcastWe reached our 50th episode of the Software Freedom Podcast! Thank you! Without the support of our listeners we would not have made it this far <3. In this episode Bonnie talks with Gabriel Ku Wei Bin, from the FSFE's legal team about how the European Next Generation Internet initiative works to move us in the right direction towards a human-centric web. Full speed into conference season with a heartfelt \u201cThank you\u201dNewsletterConference season is in full swing! In the last week we have been navigating the challenge of our payment provider ending our contract, attending events, and preparing for what\u2019s ahead. Check out our first interview on the 2026 ilovefs celebrations and our two latest podcast episodes. Tha",
+    "iframe_domains": [],
+    "meta_description": "Non profit organisation working to create general understanding and support\n    for software freedom. Includes news, events, and campaigns.",
+    "notes": [],
+    "policy_links": [
+      "https://fsfe.org/about/legal/imprint.en.html",
+      "https://fsfe.org/about/license-policy.en.html"
+    ],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "fsfe.org"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://fsfe.org/about/contact.en.html"
+    ],
+    "text_hits": [],
+    "title": "FSFE - Free Software Foundation Europe",
+    "url": "https://fsfe.org/"
+  },
+  {
+    "asset_domains": [
+      "fsfla.org"
+    ],
+    "contact_emails": [
+      "freedo@mastodon.social"
+    ],
+    "content_type": "text/html",
+    "domain": "fsfla.org",
+    "fetched_at": "2026-04-19T14:34:44.644478+00:00",
+    "final_url": "https://www.fsfla.org/ikiwiki/",
+    "footer_legal_snippet": "::[FSFLA]:: Free Software Foundation Latin AmericaFSFLA/ Free Software Foundation Latin America EditRecentChangesPreferences?DiscussionenesfrptHomeAnnouncementsGNU Linux-libreEventsLegislationFSFLAAbout FSFLAConstitutionParticipateMailing listsHistorySister FSFsFSFFSF EuropeFSF FranceFSF IndiaLinksMembers' blogsIkiwiki documentationNewsMicroblogsPlanetIRPF-Livre 2023 released2023-05-17Suitable Online Bank(rupt)ing2023-04-30Bankrupt2023-04-15The TRApp Trap: Services and Users TRApped in Telescreen-Running Apps2023-03-18The TRApp Trap2023-03-18Linux-libre turns 15!2023-02-25RMS Tour Brazil & Argentina 20172017-05-14Events that promote free software2013-04-17Richard Stallman in Brasil2012-11-29Access to the Source Code of Imposed Tax Software2012-10-15zap zap \ud83d\udc68\u200d\ud83d\ude80 Boston, this is Freedo, reporting from EVA. The flight path is clear! Freelix the GNU cat and I have fired the deblobbing ray at max power, clearing out a dense field of proprietary debris. GNU Linux-libre 7.0-gnu is officially released and 100% free for deployment! https://www.fsfla.org/pipermail/linux-libre/2026-April/003647.html Be Free! Over and out. \ud83d\ude80 #LinuxLibre#GNU#FreeSoftware#Linux#SoftwareFreedom@freedo@mastodon.soc",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": 200,
+    "support_links": [],
+    "text_hits": [],
+    "title": "::[FSFLA]:: Free Software Foundation Latin America",
+    "url": "https://fsfla.org/ikiwiki/"
+  },
+  {
+    "asset_domains": [],
+    "contact_emails": [],
+    "content_type": null,
+    "domain": "fsf.org.in",
+    "fetched_at": "2026-04-19T14:34:46.179471+00:00",
+    "final_url": "https://fsf.org.in/",
+    "footer_legal_snippet": "",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [
+      "fetch_error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+    ],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [],
+    "status": null,
+    "support_links": [],
+    "text_hits": [],
+    "title": "",
+    "url": "https://fsf.org.in/"
+  },
+  {
+    "asset_domains": [
+      "creativecommons.org"
+    ],
+    "contact_emails": [
+      "info@creativecommons.orgBlueskyMastodonLinkedInSubscribe"
+    ],
+    "content_type": "text/html",
+    "domain": "creativecommons.org",
+    "fetched_at": "2026-04-19T14:34:46.189772+00:00",
+    "final_url": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "footer_legal_snippet": "We DoExpandBuild Open Infrastructure Expand CC LicensesCC SignalsPublic DomainChooserFAQsImplement the Commons Expand Where CC Makes An ImpactResourcesSearch the CommonsEngage the People Expand Training + WebinarsAdvocacyCommunityEventsBlogSupport UsExpandMake a GiftOpen Infrastructure CircleDonor FAQDonateAttribution-NoDerivatives 4.0 InternationalCC BY-ND 4.0DeedCanonical URLhttps://creativecommons.org/licenses/by-nd/4.0/ See the legal code You are free to:Share \u2014 copy and redistribute the material in any medium or format for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:Attribution \u2014 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. NoDerivatives \u2014 If you remix, transform, or build upon the material, you may not distribute the modified material. No additional restrictions \u2014 You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices: You do not have to c",
+    "iframe_domains": [],
+    "meta_description": "",
+    "notes": [],
+    "policy_links": [
+      "https://creativecommons.org/cc-legal-tools/base.css",
+      "https://creativecommons.org/cc-legal-tools/deed.css",
+      "https://creativecommons.org/licenses/by-nd/4.0/legalcode.en",
+      "https://creativecommons.org/privacy",
+      "https://creativecommons.org/terms"
+    ],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "creativecommons.org",
+      "plausible.io"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://creativecommons.org/contact",
+      "https://creativecommons.org/faq",
+      "https://creativecommons.org/faq/",
+      "https://creativecommons.org/support",
+      "https://creativecommons.org/support/donor-faq",
+      "https://creativecommons.org/support/oic"
+    ],
+    "text_hits": [],
+    "title": "Deed - Attribution-NoDerivatives 4.0 International - Creative Commons",
+    "url": "http://creativecommons.org/licenses/by-nd/4.0/"
+  },
+  {
+    "asset_domains": [
+      "afrinic.net"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "afrinic.net",
+    "fetched_at": "2026-04-19T14:34:49.062298+00:00",
+    "final_url": "http://afrinic.net/",
+    "footer_legal_snippet": "esParticipateIPv6 DeploymentSupport & FAQsOur Recent Blog PostsExploring the Potential of RPKI Signed Checklists: The Results Are InIn 2024, the Internet Society received support from the ARIN Community Grant Program to explore new tools that strengthen the resilience and trustworthiness of the Internet\u2019s routing system.Read MoreNRO RPKI Program \u2014 2025 in review2025 is coming to an end, and we want to pause to reflect on our achievements this year as part of the NRO RPKI Program.Read MoreA new NRO resource for network operators working across multiple RIRsThe Number Resource Organization (NRO) has published a new reference page to help network operators and other members of the Internet technical community learn how to create Route Origin Authorizations (ROAs) through each of the five Regional Internet Registries (RIRs).Read MoreMore from our blogLatest News Community Consultation: Review of Bylaws Read More ... Community Consultation: Review of Bylaws Read More ... Expression of Interest: Provision of HR Consultancy Services for AFRINIC Read More ... Our WorkDNS Support ProgramThe DNS is one of the main components of AFRINIC services, specifically reverse DNS services for IP addre",
+    "iframe_domains": [],
+    "meta_description": "AFRINIC is responsible for the allocation and management of Internet numbers (IPv4, IPv6 & ASNs) resources according to their community backed policy development process (PDP).",
+    "notes": [],
+    "policy_links": [
+      "http://afrinic.net/policy",
+      "http://afrinic.net/privacy",
+      "http://afrinic.net/terms-2",
+      "http://afrinic.net/website-use-terms?lang=en-GB"
+    ],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "afrinic.net",
+      "cdn.cookielaw.org",
+      "googleoptimize.com",
+      "googletagmanager.com",
+      "widget.trustpilot.com"
+    ],
+    "status": 200,
+    "support_links": [
+      "http://afrinic.net/contact",
+      "http://afrinic.net/dns-support",
+      "http://afrinic.net/dns-support-2",
+      "http://afrinic.net/support",
+      "http://afrinic.net/support?lang=en"
+    ],
+    "text_hits": [],
+    "title": "AFRINIC the Regional Internet Registry (RIR) for Africa - AFRINIC - Regional Internet Registry for Africa",
+    "url": "http://afrinic.net/"
+  },
+  {
+    "asset_domains": [
+      "apnic.net",
+      "cloud.typography.com",
+      "webdist.data.apnic.net"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=UTF-8",
+    "domain": "apnic.net",
+    "fetched_at": "2026-04-19T14:34:51.043524+00:00",
+    "final_url": "https://www.apnic.net/",
+    "footer_legal_snippet": "MyAPNICAcademyBlogOrbitRExDASHHomeWhois and website searchSearchAdvanced WhoisMake a paymentClose SearchSearch APNIC.net OR enter Whois database queryGet IPGet IPMake a paymentMembershipFAQsManage IPMyAPNICUsing WhoisIPv4 exhaustionGo IPv6Routing RegistryMake a paymentTrainingAboutEventsAPNIC AcademyCommunity TrainersCoursesEventsConferencesCalendarSponsorshipCode of ConductInsightsAPNIC LabsDASH to secure your networksRExRaw DataCommunityOrbitCommunity demographicsPolicy DevelopmentFellowshipAddressing policiesInternet communityCode of ConductTechnical AssistanceRoot serversSecurity at APNICISIF AsiaAPNIC FoundationNRO Number Council (NC) Blog Help Centre AboutAPNIC RegionAPNIC MembershipExecutive CouncilService updatesTeamAnnual ReportsTransparencyAPNIC SurveyCorporate DocumentsPublications ArchiveCareersGlossary Contact Advanced WhoisMake a paymentGet IPGet IPMake a paymentMembershipFAQsManage IPMyAPNICUsing WhoisIPv4 exhaustionGo IPv6Routing RegistryMake a paymentTrainingAboutEventsAPNIC AcademyCommunity TrainersCoursesEventsConferencesCalendarSponsorshipCode of ConductInsightsAPNIC LabsDASH to secure your networksRExRaw DataCommunityOrbitCommunity demographicsPolicy Developmen",
+    "iframe_domains": [
+      "googletagmanager.com"
+    ],
+    "meta_description": "A global, open, stable, and secure Internet that serves the entire Asia Pacific community",
+    "notes": [],
+    "policy_links": [
+      "https://apnic.net/about-apnic/corporate-documents/documents/corporate/privacy/",
+      "https://apnic.net/community/policy/",
+      "https://apnic.net/community/policy/current/"
+    ],
+    "provider_mentions": [
+      "facebook"
+    ],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "apnic.net",
+      "gstatic.com",
+      "recaptcha.net",
+      "webdist.data.apnic.net"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://apnic.net/about-apnic/organization/contact-apnic/",
+      "https://apnic.net/community/support/isif/",
+      "https://apnic.net/community/support/root-servers/",
+      "https://apnic.net/community/support/technical-assistance/",
+      "https://apnic.net/get-ip/faqs/",
+      "https://help.apnic.net/",
+      "https://help.apnic.net/s/"
+    ],
+    "text_hits": [],
+    "title": "APNIC",
+    "url": "http://apnic.net/"
+  },
+  {
+    "asset_domains": [
+      "arin.net"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html",
+    "domain": "arin.net",
+    "fetched_at": "2026-04-19T14:34:51.666444+00:00",
+    "final_url": "https://www.arin.net/",
+    "footer_legal_snippet": "ARINFee & Billing InformationFee SchedulePremier Support Plan (PSP)Make a PaymentHow Billing WorksResource Revocation, Returns, and ReinstatementIP & ASN Registry ServicesManaging Resource RecordsTransferring IP Addresses & ASNsReporting ReassignmentsUsing WhoisResource Management ServicesResource Public Key Infrastructure (RPKI)Automating Record Management with Reg-RWSSecuring DNS (DNSSEC)Routing Security Eligibility FAQsInternet Routing Registry (IRR)Reverse DNSPolicy & ParticipationPolicyNumber Resource Policy ManualPolicy Development Process (PDP)Draft and Recommended Draft PoliciesPolicy ProposalsMeetings & EventsPublic Policy and Members MeetingsOutreach EventsARIN Fellowship ProgramSponsorshipPast MeetingsMembership & ElectionsMembershipElectionsCommunity InteractionARIN Community Satisfaction SurveysMailing ListsConsultations & SuggestionsReference & ToolsToolsOperational Test and Evaluation (OT&E) EnvironmentCIDR CalculatorCommunity Software RepositoryInternet Number Resource Fraud ReportingReferenceSpam & Network Abuse ReportingRegistry Data DescriptionData AccuracyInformation Security at ARINARIN Software ReleasesResearchStatistics & ReportingHistorical Whois Data (WhoWa",
+    "iframe_domains": [
+      "googletagmanager.com"
+    ],
+    "meta_description": "ARIN is a nonprofit, member-based organization that administers IP addresses & ASNs in support of the operation and growth of the Internet.",
+    "notes": [],
+    "policy_links": [
+      "https://account.arin.net/public/terms-of-service",
+      "https://arin.net/about/privacy/",
+      "https://arin.net/blog/2026/04/16/ac-policy-engagement-survey-followup/",
+      "https://arin.net/participate/policy/",
+      "https://arin.net/participate/policy/drafts/",
+      "https://arin.net/participate/policy/nrpm/",
+      "https://arin.net/participate/policy/pdp/",
+      "https://arin.net/participate/policy/proposals/"
+    ],
+    "provider_mentions": [
+      "facebook"
+    ],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "arin.net",
+      "c2y23vzfb5cg.statuspage.io"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://arin.net/contact/",
+      "https://arin.net/reference/training/help_videos/",
+      "https://arin.net/resources/fees/contact/"
+    ],
+    "text_hits": [
+      "billing"
+    ],
+    "title": "American Registry for Internet Numbers",
+    "url": "http://arin.net/"
+  },
+  {
+    "asset_domains": [
+      "lacnic.net"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html;charset=ISO-8859-1",
+    "domain": "lacnic.net",
+    "fetched_at": "2026-04-19T14:34:53.528501+00:00",
+    "final_url": "https://www.lacnic.net/",
+    "footer_legal_snippet": "LACNIC - Registro de Direcciones IP en LACMiLACNICportugu\u00easenglishespa\u00f1olAcerca deConoce todo acerca de LACNICAcerca de LACNICAnunciosEstatutoPresupuestoTransparenciaC\ufffddigo de Conducta de la comunidad de LACNICC\ufffddigo de \ufffdtica de LACNICCasa de InternetIntegrantes de LACNICDirectorioComisi\ufffdn ElectoralComisi\ufffdn FiscalComit\ufffd de \ufffdticaStaffIP & ASNSolicita IP&ASNSolicitar IP & ASNLista de espera para recibir direcciones IPv4Despliega IPv6Transferencias de direcciones IPRevocaci\ufffdn de IP & ASNDevoluci\ufffdn de IP & ASNGesti\ufffdn de recursos legadosEstad\ufffdsticas de Asignaci\ufffdn de LACNICAdministra IP&ASNMiLACNIC (Ingresar a mi cuenta)WhoisResoluci\ufffdn reversa del DNSCertificaci\ufffdn de recursos (RPKI)Internet Routing Registry (IRR)Geolocalizaci\ufffdn de IPAutomatizaci\ufffdn e integraci\ufffdn de la gesti\ufffdn IPAcceso a Bulk WhoisLACNIC ToolsSistema Automatizado para la Administraci\ufffdn de Recursos de Internet (SARA)Membres\ufffdaMembres\ufffda y facturaci\ufffdnMembres\ufffdaCategor\ufffdas y Cuotas de AsociadosFormas de pagoEleccionesAsambleaTabla de votosCapacitacionesCampus LACNICPr\ufffdximas capacitacionesCAMPUSCursosDocentesIngresar al campusEspecializacionesFortalece tus habilidades t\ufffdcnicasWebinarsPodcastTutoriales y gu\ufffdasNovedadesParticiparEve",
+    "iframe_domains": [
+      "googletagmanager.com"
+    ],
+    "meta_description": "Registro de Direcciones de Internet de Am\ufffdrica Latina y Caribe; administra recursos de numeraci\ufffdn de Internet (IPv4 IPv6) n\ufffdmeros aut\ufffdnomos, resoluci\ufffdn inversa",
+    "notes": [],
+    "policy_links": [],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "cdn.amcharts.com",
+      "gstatic.com",
+      "lacnic.net",
+      "webmeasurements.net"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://lacnic.net/1126/1/lacnic/faq",
+      "https://lacnic.net/492/1/lacnic/contacto"
+    ],
+    "text_hits": [],
+    "title": "LACNIC - Registro de Direcciones IP en LAC",
+    "url": "http://lacnic.net/"
+  },
+  {
+    "asset_domains": [
+      "ripe.net"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "ripe.net",
+    "fetched_at": "2026-04-19T14:34:54.922103+00:00",
+    "final_url": "https://www.ripe.net/",
+    "footer_legal_snippet": "Info CentreAbout IPv6Deploy IPv6 NowStatistics and ToolsTraining and MaterialsDocumentsCommunityClose AboutAbout We're a not-for-profit membership association, a Regional Internet Registry and the secretariat for the RIPE community supporting the Internet. Visit page What We DoRegional Internet RegistryRIPE NCC Service RegionCoordination FunctionStatisticsTransition to IPv6List of RIPE NCC ServicesUser ResearchStaffRIPE NCC StaffCareers at the RIPE NCCExecutive BoardFunctions and Expectations Minutes from Executive Board MeetingsFinancial InformationCurrent Charging SchemeCurrent Billing ProcedurePress CentreRIPE NCC in the NewsPublications and PresentationsPress ReleasesPress Quality PhotosLegalArbitrationCorporate GovernanceInternet Number ResourcesOther RIPE NCC ServicesInformation for LEANewsRSS News FeedsRIPE NCC Member UpdatesSupportContact UsSpam, Hacking and PhishingService and Security AnnouncementsRIPE NCC Trust PortalRIPE NCC Middle EastClose Languages Find information about the RIPE NCC translated into eight languages. Use the menu to read text in Arabic, Spanish, Farsi, French, Italian, Turkish, Ukrainian and Russian. Visit page EnglishHow to Become a MemberBilling, Fe",
+    "iframe_domains": [],
+    "meta_description": "The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocation and registration, and coordination activities.",
+    "notes": [],
+    "policy_links": [
+      "https://ripe.net/about-us/legal/",
+      "https://ripe.net/about-us/legal/arbitration/",
+      "https://ripe.net/about-us/legal/cookies/",
+      "https://ripe.net/about-us/legal/copyright-statement/",
+      "https://ripe.net/about-us/legal/corporate-governance/",
+      "https://ripe.net/about-us/legal/information-for-law-enforcement-agencies/",
+      "https://ripe.net/about-us/legal/internet-number-resources/",
+      "https://ripe.net/about-us/legal/other-ripe-ncc-services-documents/",
+      "https://ripe.net/about-us/legal/ripe-ncc-privacy-statement/",
+      "https://ripe.net/about-us/legal/terms-of-service/",
+      "https://ripe.net/analyse/raw-data-sets/terms-conditions/",
+      "https://ripe.net/community/policies/policy-implementation-status/",
+      "https://ripe.net/manage-ips-and-asns/resource-management/policy-implementation-status/"
+    ],
+    "provider_mentions": [],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "ripe.net",
+      "www-static.ripe.net"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://ripe.net/about-us/support/",
+      "https://ripe.net/about-us/support/abuse/",
+      "https://ripe.net/about-us/support/contact/",
+      "https://ripe.net/about-us/support/service-and-security-announcements/",
+      "https://ripe.net/community/community-initiatives/support-community-initiatives/",
+      "https://ripe.net/languages/fr/comment-trouver-les-informations-de-contact-dabus/",
+      "https://ripe.net/manage-ips-and-asns/db/support/",
+      "https://ripe.net/membership/member-support/",
+      "https://ripe.net/membership/member-support/become-a-member/",
+      "https://ripe.net/membership/member-support/lir-basics/",
+      "https://ripe.net/membership/member-support/ripe-ncc-access/",
+      "https://ripe.net/membership/member-support/surveys/",
+      "https://ripe.net/support/contact/",
+      "https://ripe.net/support/contact/social-networking"
+    ],
+    "text_hits": [
+      "billing"
+    ],
+    "title": "Welcome to RIPE and the RIPE NCC \u2014 RIPE Network Coordination Centre",
+    "url": "http://ripe.net/"
+  },
+  {
+    "asset_domains": [
+      "ietf.org",
+      "static.ietf.org"
+    ],
+    "contact_emails": [],
+    "content_type": "text/html; charset=utf-8",
+    "domain": "ietf.org",
+    "fetched_at": "2026-04-19T14:34:55.322865+00:00",
+    "final_url": "https://www.ietf.org/",
+    "footer_legal_snippet": "ds are made freely available. Process Internet standards process Guide to IETF Working Groups Birds of a Feather (BOF) Protocol registries (IANA) Intellectual property rights (IPR) Directorates and teams Informal guide to IETF process documents Bringing new work to the IETF RFCs About RFCs RFC Editor Availability and use Publication formats Statuses Publication streams Corrections and errata Reporting protocol vulnerabilities to the IETF Standards process details Choosing between Informational and Experimental Status The role of the IESG in the Standards process Appeals to the IESG IESG ballot procedures Informal guide to IETF process documents Participate The global IETF community works together in many different ways to produce high quality, relevant technical documents that influence the way people design, use, and manage the Internet. Participate Getting started in the IETF Internet-Drafts IETF Systers Tools and services Datatracker Mailing lists Tools and services Open records Chairs resources I-D authors resources Participation guides Guide to IETF Meetings Guide to IETF Working Groups Roles in the IETF Key policies Note Well - A reminder of IETF policies Anti-harassment poli",
+    "iframe_domains": [],
+    "meta_description": "Read more about the Internet Engineering Task Force (IETF), the premier standards development organization (SDO) for the Internet.",
+    "notes": [],
+    "policy_links": [
+      "https://datatracker.ietf.org/doc/statement-iesg-ietf-anti-harassment-policy-20131103/",
+      "https://ietf.org/administration/legal-request-procedures/",
+      "https://ietf.org/administration/legal-requests/",
+      "https://ietf.org/meeting/terms-and-conditions/",
+      "https://ietf.org/privacy-statement/"
+    ],
+    "provider_mentions": [
+      "evolution"
+    ],
+    "rebrand_phrase_hits": [],
+    "script_domains": [
+      "ietf.org"
+    ],
+    "status": 200,
+    "support_links": [
+      "https://ietf.org/contact/",
+      "https://ietf.org/support-us/",
+      "https://ietf.org/support-us/donate-ietf/",
+      "https://ietf.org/support-us/donate/",
+      "https://ietf.org/support-us/donors/",
+      "https://ietf.org/support-us/endowment/",
+      "https://ietf.org/support-us/sponsorship/",
+      "https://ietf.org/support-us/technical-foundations/",
+      "https://ietf.org/support-us/why-support/"
+    ],
+    "text_hits": [],
+    "title": "IETF | Internet Engineering Task Force",
+    "url": "http://ietf.org/"
+  }
+]

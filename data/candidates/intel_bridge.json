@@ -1,0 +1,288 @@
+{
+  "rows": [
+    {
+      "bridge_status": "net_new",
+      "domain": "iana.org",
+      "notes": [],
+      "source_urls": [
+        "http://www.iana.org/help/example-domains",
+        "https://example.com/",
+        "https://www.iana.org/",
+        "https://www.iana.org/about",
+        "https://www.iana.org/domains",
+        "https://www.iana.org/domains/reserved",
+        "https://www.iana.org/domains/root",
+        "https://www.iana.org/numbers",
+        "https://www.iana.org/protocols"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "pti.icann.org",
+      "notes": [],
+      "source_urls": [
+        "http://www.iana.org/help/example-domains",
+        "https://www.iana.org/",
+        "https://www.iana.org/about",
+        "https://www.iana.org/domains",
+        "https://www.iana.org/domains/reserved",
+        "https://www.iana.org/domains/root",
+        "https://www.iana.org/numbers",
+        "https://www.iana.org/protocols"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "icann.org",
+      "notes": [],
+      "source_urls": [
+        "http://www.iana.org/help/example-domains",
+        "https://www.iana.org/",
+        "https://www.iana.org/about",
+        "https://www.iana.org/domains",
+        "https://www.iana.org/domains/reserved",
+        "https://www.iana.org/domains/root",
+        "https://www.iana.org/numbers",
+        "https://www.iana.org/protocols"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "fsf.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "gnu.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "directory.fsf.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "h-node.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "snowflake.torproject.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "ushistory.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "planet.gnu.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "savannah.gnu.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "my.fsf.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "libreplanet.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "donate.fsf.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "shop.fsf.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "fsfe.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "fsfla.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "fsf.org.in",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "creativecommons.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.gnu.org/"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "afrinic.net",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "apnic.net",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "arin.net",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "lacnic.net",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "ripe.net",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "ietf.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "nro.net",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/numbers"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "datatracker.ietf.org",
+      "notes": [],
+      "source_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc2606",
+        "https://datatracker.ietf.org/doc/html/rfc6761"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "rfc-editor.org",
+      "notes": [],
+      "source_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc2606",
+        "https://datatracker.ietf.org/doc/html/rfc6761"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "github.com",
+      "notes": [],
+      "source_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc2606",
+        "https://datatracker.ietf.org/doc/html/rfc6761"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "trustee.ietf.org",
+      "notes": [],
+      "source_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc6761"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "res-dom.iana.org",
+      "notes": [],
+      "source_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc6761"
+      ]
+    },
+    {
+      "bridge_status": "net_new",
+      "domain": "lists.icann.org",
+      "notes": [],
+      "source_urls": [
+        "https://www.iana.org/domains/root"
+      ]
+    }
+  ],
+  "run_at": "2026-04-19T14:34:55.342335+00:00",
+  "snapshot_loaded": false,
+  "snapshot_path": null
+}

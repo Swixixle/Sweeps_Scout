@@ -1,0 +1,1034 @@
+[
+  {
+    "candidate_id": "candidate_iana_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "iana.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [
+        "support_like_path"
+      ],
+      "policy_links": [
+        "https://icann.org/privacy/policy",
+        "https://icann.org/privacy/tos"
+      ],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "iana.org"
+      ],
+      "support_links": [
+        "http://iana.org/contact"
+      ],
+      "text_hits": [],
+      "title": "Example Domains"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "http://www.iana.org/help/example-domains",
+      "https://example.com/",
+      "https://www.iana.org/",
+      "https://www.iana.org/about",
+      "https://www.iana.org/domains",
+      "https://www.iana.org/domains/reserved",
+      "https://www.iana.org/domains/root",
+      "https://www.iana.org/numbers",
+      "https://www.iana.org/protocols"
+    ]
+  },
+  {
+    "candidate_id": "candidate_pti_icann_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "pti.icann.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [],
+      "text_hits": [],
+      "title": ""
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "http://www.iana.org/help/example-domains",
+      "https://www.iana.org/",
+      "https://www.iana.org/about",
+      "https://www.iana.org/domains",
+      "https://www.iana.org/domains/reserved",
+      "https://www.iana.org/domains/root",
+      "https://www.iana.org/numbers",
+      "https://www.iana.org/protocols"
+    ]
+  },
+  {
+    "candidate_id": "candidate_icann_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "icann.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [],
+      "text_hits": [],
+      "title": ""
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "http://www.iana.org/help/example-domains",
+      "https://www.iana.org/",
+      "https://www.iana.org/about",
+      "https://www.iana.org/domains",
+      "https://www.iana.org/domains/reserved",
+      "https://www.iana.org/domains/root",
+      "https://www.iana.org/numbers",
+      "https://www.iana.org/protocols"
+    ]
+  },
+  {
+    "candidate_id": "candidate_fsf_org",
+    "confidence_hint": 0.45,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "likely_provider",
+    "normalized_domain": "fsf.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [
+        "support_like_path"
+      ],
+      "policy_links": [
+        "https://my.fsf.org/donate/privacypolicy.html"
+      ],
+      "provider_mentions": [
+        "pragmatic"
+      ],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [
+        "http://fsf.org/free-software-supporter/subscribe",
+        "http://fsf.org/help-menu",
+        "https://fsf.org/about/contact.html",
+        "https://fsf.org/free-software-supporter/",
+        "https://fsf.org/free-software-supporter/2008/",
+        "https://fsf.org/free-software-supporter/2009/",
+        "https://fsf.org/free-software-supporter/2010/",
+        "https://fsf.org/free-software-supporter/2011/",
+        "https://fsf.org/free-software-supporter/2012/",
+        "https://fsf.org/free-software-supporter/2013/",
+        "https://fsf.org/free-software-supporter/2014/",
+        "https://fsf.org/free-software-supporter/2015/",
+        "https://fsf.org/free-software-supporter/2016/",
+        "https://fsf.org/free-software-supporter/2017/",
+        "https://fsf.org/free-software-supporter/2018/",
+        "https://fsf.org/free-software-supporter/2019/",
+        "https://fsf.org/free-software-supporter/2020/",
+        "https://fsf.org/free-software-supporter/2021/",
+        "https://fsf.org/free-software-supporter/2022/",
+        "https://fsf.org/free-software-supporter/2023/",
+        "https://fsf.org/free-software-supporter/2024/",
+        "https://fsf.org/free-software-supporter/2025/",
+        "https://fsf.org/free-software-supporter/2026/",
+        "https://fsf.org/share?t=Free+Software+Supporter&u=https%3A%2F%2Fwww.fsf.org%2Ffree-software-supporter%2Ffree-software-supporter",
+        "https://gnu.org/licenses/gpl-faq.html"
+      ],
+      "text_hits": [],
+      "title": "Free Software Supporter \u2014 Free Software Foundation \u2014 Working together for free software"
+    },
+    "reasoning": [
+      "highest rule score for likely_provider (0.45)",
+      "provider mentions: pragmatic"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_gnu_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "gnu.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "Since 1983, developing the free Unix style operating system GNU, so that computer users can have the freedom to share and improve the software they use.",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [
+        "https://fsf.org/associate/support_freedom?referrer=4052",
+        "https://fsf.org/blogs/community/help-others-find-free-software-watch-and-share-escape-to-freedom",
+        "https://gnu.org/contact/",
+        "https://gnu.org/gnu/gnu-linux-faq.html",
+        "https://gnu.org/help",
+        "https://gnu.org/help/help.html",
+        "https://gnu.org/help/music-subtraction.html",
+        "https://gnu.org/help/priority-projects.html"
+      ],
+      "text_hits": [],
+      "title": "The GNU Operating System and the Free Software Movement"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_directory_fsf_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "directory.fsf.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [
+        "fetch_error: <urlopen error _ssl.c:1063: The handshake operation timed out>"
+      ],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [],
+      "text_hits": [],
+      "title": ""
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_h-node_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "h-node.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "free software project with the aim of collecting information about the hardware that works with a fully free operating system",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "h-node.org"
+      ],
+      "support_links": [
+        "http://fsf.org/associate/support_freedom/join_fsf?referrer=2442",
+        "https://h-node.org/contact/index/en",
+        "https://h-node.org/faq/page/en/FAQ",
+        "https://h-node.org/help/page/en/Help"
+      ],
+      "text_hits": [],
+      "title": "home - h-node.org"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_snowflake_torproject_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "snowflake.torproject.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [
+        "embed-snowflake.torproject.org"
+      ],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "snowflake.torproject.org"
+      ],
+      "support_links": [
+        "https://torproject.org/contact/"
+      ],
+      "text_hits": [],
+      "title": "Snowflake"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_ushistory_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "ushistory.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "The Autobiography of Benjamin Franklin. Complete text.",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "ajax.googleapis.com",
+        "apis.google.com",
+        "assets.pinterest.com",
+        "googletagmanager.com",
+        "maxcdn.bootstrapcdn.com",
+        "pagead2.googlesyndication.com",
+        "ushistory.org"
+      ],
+      "support_links": [],
+      "text_hits": [],
+      "title": "The Autobiography of Benjamin Franklin"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_planet_gnu_org",
+    "confidence_hint": 0.45,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "likely_provider",
+    "normalized_domain": "planet.gnu.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [
+        "https://hp.com/us-en/privacy/hp-advertising.html",
+        "https://theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version"
+      ],
+      "provider_mentions": [
+        "google"
+      ],
+      "rebrand_phrase_hits": [
+        "previously"
+      ],
+      "script_domains": [],
+      "support_links": [
+        "http://fsf.org/associate/support_freedom/join_fsf?referrer=2442",
+        "http://sam-d.com/blog/adding-appimage-support-to-the-guix-package-manager/",
+        "https://darnassus.sceen.net/~hurd-web/faq/",
+        "https://guix.gnu.org/en/contact",
+        "https://guix.gnu.org/en/contact/irc/",
+        "https://guix.gnu.org/manual/1.5.0/en/html_node/AppArmor-Support.html"
+      ],
+      "text_hits": [],
+      "title": "Planet GNU"
+    },
+    "reasoning": [
+      "highest rule score for likely_provider (0.45)",
+      "provider mentions: google"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_savannah_gnu_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "savannah.gnu.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "Savannah is a central point for development, distribution\nand maintenance of free software, both GNU and non-GNU.",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [
+        "previously"
+      ],
+      "script_domains": [],
+      "support_links": [
+        "https://fsf.org/associate/support_freedom/join_fsf?referrer=2442",
+        "https://gnu.org/help/help.html",
+        "https://savannah.gnu.org/contact.php",
+        "https://savannah.gnu.org/support/?func=additem&group=time",
+        "https://savannah.gnu.org/support/?func=browse&group=time&set=open",
+        "https://savannah.gnu.org/support/?func=digest&group=time",
+        "https://savannah.gnu.org/support/?func=search&group=time",
+        "https://savannah.gnu.org/support/?group=administration",
+        "https://savannah.gnu.org/support/?group=time",
+        "https://savannah.gnu.org/support/admin/field_values.php?group=time",
+        "https://savannah.gnu.org/support/dependencies.php?group=time",
+        "https://savannah.gnu.org/support/reporting.php?group=time"
+      ],
+      "text_hits": [],
+      "title": "GNU Time - News [Savannah]"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_my_fsf_org",
+    "confidence_hint": 0.48,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "likely_payment_path",
+    "normalized_domain": "my.fsf.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [
+        "https://fsf.org/about/free-software-foundation-privacy-policy"
+      ],
+      "provider_mentions": [
+        "paypal"
+      ],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "my.fsf.org"
+      ],
+      "support_links": [],
+      "text_hits": [
+        "billing",
+        "credit card",
+        "payment method",
+        "paypal"
+      ],
+      "title": "Support the Free Software Foundation | Free Software Foundation"
+    },
+    "reasoning": [
+      "highest rule score for likely_payment_path (0.48)",
+      "provider mentions: paypal"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_libreplanet_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "libreplanet.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [
+        "https://fsf.org/about/free-software-foundation-privacy-policy",
+        "https://fsf.org/blogs/licensing/fsf-funded-call-for-white-papers-on-philosophical-and-legal-questions-around-copilot",
+        "https://fsf.org/events/libreplanet-talk-bigcode-open-and-responsible-research-on-code-generating-ai-systems",
+        "https://libreplanet.org/wiki/Anti-harassment_policy"
+      ],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "libreplanet.org"
+      ],
+      "support_links": [
+        "https://fsf.org/about/contact",
+        "https://fsf.org/about/contact.html",
+        "https://libreplanet.org/wiki/Group:LibrePlanet_Wiki_Helpers"
+      ],
+      "text_hits": [],
+      "title": "Group:Copilot Watch Group - LibrePlanet"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_donate_fsf_org",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "donate.fsf.org",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_shop_fsf_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "shop.fsf.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [],
+      "text_hits": [],
+      "title": ""
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_fsfe_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "fsfe.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "Non profit organisation working to create general understanding and support\n    for software freedom. Includes news, events, and campaigns.",
+      "notes": [],
+      "policy_links": [
+        "https://fsfe.org/about/legal/imprint.en.html",
+        "https://fsfe.org/about/license-policy.en.html"
+      ],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "fsfe.org"
+      ],
+      "support_links": [
+        "https://fsfe.org/about/contact.en.html"
+      ],
+      "text_hits": [],
+      "title": "FSFE - Free Software Foundation Europe"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_fsfla_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "fsfla.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [],
+      "text_hits": [],
+      "title": "::[FSFLA]:: Free Software Foundation Latin America"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_fsf_org_in",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "fsf.org.in",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [
+        "fetch_error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+      ],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [],
+      "support_links": [],
+      "text_hits": [],
+      "title": ""
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_creativecommons_org",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "creativecommons.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "",
+      "notes": [],
+      "policy_links": [
+        "https://creativecommons.org/cc-legal-tools/base.css",
+        "https://creativecommons.org/cc-legal-tools/deed.css",
+        "https://creativecommons.org/licenses/by-nd/4.0/legalcode.en",
+        "https://creativecommons.org/privacy",
+        "https://creativecommons.org/terms"
+      ],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "creativecommons.org",
+        "plausible.io"
+      ],
+      "support_links": [
+        "https://creativecommons.org/contact",
+        "https://creativecommons.org/faq",
+        "https://creativecommons.org/faq/",
+        "https://creativecommons.org/support",
+        "https://creativecommons.org/support/donor-faq",
+        "https://creativecommons.org/support/oic"
+      ],
+      "text_hits": [],
+      "title": "Deed - Attribution-NoDerivatives 4.0 International - Creative Commons"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.gnu.org/"
+    ]
+  },
+  {
+    "candidate_id": "candidate_afrinic_net",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "afrinic.net",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "AFRINIC is responsible for the allocation and management of Internet numbers (IPv4, IPv6 & ASNs) resources according to their community backed policy development process (PDP).",
+      "notes": [],
+      "policy_links": [
+        "http://afrinic.net/policy",
+        "http://afrinic.net/privacy",
+        "http://afrinic.net/terms-2",
+        "http://afrinic.net/website-use-terms?lang=en-GB"
+      ],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "afrinic.net",
+        "cdn.cookielaw.org",
+        "googleoptimize.com",
+        "googletagmanager.com",
+        "widget.trustpilot.com"
+      ],
+      "support_links": [
+        "http://afrinic.net/contact",
+        "http://afrinic.net/dns-support",
+        "http://afrinic.net/dns-support-2",
+        "http://afrinic.net/support",
+        "http://afrinic.net/support?lang=en"
+      ],
+      "text_hits": [],
+      "title": "AFRINIC the Regional Internet Registry (RIR) for Africa - AFRINIC - Regional Internet Registry for Africa"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_apnic_net",
+    "confidence_hint": 0.45,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "likely_provider",
+    "normalized_domain": "apnic.net",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [
+        "googletagmanager.com"
+      ],
+      "meta_description": "A global, open, stable, and secure Internet that serves the entire Asia Pacific community",
+      "notes": [],
+      "policy_links": [
+        "https://apnic.net/about-apnic/corporate-documents/documents/corporate/privacy/",
+        "https://apnic.net/community/policy/",
+        "https://apnic.net/community/policy/current/"
+      ],
+      "provider_mentions": [
+        "facebook"
+      ],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "apnic.net",
+        "gstatic.com",
+        "recaptcha.net",
+        "webdist.data.apnic.net"
+      ],
+      "support_links": [
+        "https://apnic.net/about-apnic/organization/contact-apnic/",
+        "https://apnic.net/community/support/isif/",
+        "https://apnic.net/community/support/root-servers/",
+        "https://apnic.net/community/support/technical-assistance/",
+        "https://apnic.net/get-ip/faqs/",
+        "https://help.apnic.net/",
+        "https://help.apnic.net/s/"
+      ],
+      "text_hits": [],
+      "title": "APNIC"
+    },
+    "reasoning": [
+      "highest rule score for likely_provider (0.45)",
+      "provider mentions: facebook"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_arin_net",
+    "confidence_hint": 0.45,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "likely_provider",
+    "normalized_domain": "arin.net",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [
+        "googletagmanager.com"
+      ],
+      "meta_description": "ARIN is a nonprofit, member-based organization that administers IP addresses & ASNs in support of the operation and growth of the Internet.",
+      "notes": [],
+      "policy_links": [
+        "https://account.arin.net/public/terms-of-service",
+        "https://arin.net/about/privacy/",
+        "https://arin.net/blog/2026/04/16/ac-policy-engagement-survey-followup/",
+        "https://arin.net/participate/policy/",
+        "https://arin.net/participate/policy/drafts/",
+        "https://arin.net/participate/policy/nrpm/",
+        "https://arin.net/participate/policy/pdp/",
+        "https://arin.net/participate/policy/proposals/"
+      ],
+      "provider_mentions": [
+        "facebook"
+      ],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "arin.net",
+        "c2y23vzfb5cg.statuspage.io"
+      ],
+      "support_links": [
+        "https://arin.net/contact/",
+        "https://arin.net/reference/training/help_videos/",
+        "https://arin.net/resources/fees/contact/"
+      ],
+      "text_hits": [
+        "billing"
+      ],
+      "title": "American Registry for Internet Numbers"
+    },
+    "reasoning": [
+      "highest rule score for likely_provider (0.45)",
+      "provider mentions: facebook"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_lacnic_net",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "lacnic.net",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [
+        "googletagmanager.com"
+      ],
+      "meta_description": "Registro de Direcciones de Internet de Am\ufffdrica Latina y Caribe; administra recursos de numeraci\ufffdn de Internet (IPv4 IPv6) n\ufffdmeros aut\ufffdnomos, resoluci\ufffdn inversa",
+      "notes": [],
+      "policy_links": [],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "cdn.amcharts.com",
+        "gstatic.com",
+        "lacnic.net",
+        "webmeasurements.net"
+      ],
+      "support_links": [
+        "https://lacnic.net/1126/1/lacnic/faq",
+        "https://lacnic.net/492/1/lacnic/contacto"
+      ],
+      "text_hits": [],
+      "title": "LACNIC - Registro de Direcciones IP en LAC"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_ripe_net",
+    "confidence_hint": 0.1,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "ripe.net",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocation and registration, and coordination activities.",
+      "notes": [],
+      "policy_links": [
+        "https://ripe.net/about-us/legal/",
+        "https://ripe.net/about-us/legal/arbitration/",
+        "https://ripe.net/about-us/legal/cookies/",
+        "https://ripe.net/about-us/legal/copyright-statement/",
+        "https://ripe.net/about-us/legal/corporate-governance/",
+        "https://ripe.net/about-us/legal/information-for-law-enforcement-agencies/",
+        "https://ripe.net/about-us/legal/internet-number-resources/",
+        "https://ripe.net/about-us/legal/other-ripe-ncc-services-documents/",
+        "https://ripe.net/about-us/legal/ripe-ncc-privacy-statement/",
+        "https://ripe.net/about-us/legal/terms-of-service/",
+        "https://ripe.net/analyse/raw-data-sets/terms-conditions/",
+        "https://ripe.net/community/policies/policy-implementation-status/",
+        "https://ripe.net/manage-ips-and-asns/resource-management/policy-implementation-status/"
+      ],
+      "provider_mentions": [],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "ripe.net",
+        "www-static.ripe.net"
+      ],
+      "support_links": [
+        "https://ripe.net/about-us/support/",
+        "https://ripe.net/about-us/support/abuse/",
+        "https://ripe.net/about-us/support/contact/",
+        "https://ripe.net/about-us/support/service-and-security-announcements/",
+        "https://ripe.net/community/community-initiatives/support-community-initiatives/",
+        "https://ripe.net/languages/fr/comment-trouver-les-informations-de-contact-dabus/",
+        "https://ripe.net/manage-ips-and-asns/db/support/",
+        "https://ripe.net/membership/member-support/",
+        "https://ripe.net/membership/member-support/become-a-member/",
+        "https://ripe.net/membership/member-support/lir-basics/",
+        "https://ripe.net/membership/member-support/ripe-ncc-access/",
+        "https://ripe.net/membership/member-support/surveys/",
+        "https://ripe.net/support/contact/",
+        "https://ripe.net/support/contact/social-networking"
+      ],
+      "text_hits": [
+        "billing"
+      ],
+      "title": "Welcome to RIPE and the RIPE NCC \u2014 RIPE Network Coordination Centre"
+    },
+    "reasoning": [
+      "insufficient keyword signals"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_ietf_org",
+    "confidence_hint": 0.45,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "likely_provider",
+    "normalized_domain": "ietf.org",
+    "raw_evidence_snapshot": {
+      "iframe_domains": [],
+      "meta_description": "Read more about the Internet Engineering Task Force (IETF), the premier standards development organization (SDO) for the Internet.",
+      "notes": [],
+      "policy_links": [
+        "https://datatracker.ietf.org/doc/statement-iesg-ietf-anti-harassment-policy-20131103/",
+        "https://ietf.org/administration/legal-request-procedures/",
+        "https://ietf.org/administration/legal-requests/",
+        "https://ietf.org/meeting/terms-and-conditions/",
+        "https://ietf.org/privacy-statement/"
+      ],
+      "provider_mentions": [
+        "evolution"
+      ],
+      "rebrand_phrase_hits": [],
+      "script_domains": [
+        "ietf.org"
+      ],
+      "support_links": [
+        "https://ietf.org/contact/",
+        "https://ietf.org/support-us/",
+        "https://ietf.org/support-us/donate-ietf/",
+        "https://ietf.org/support-us/donate/",
+        "https://ietf.org/support-us/donors/",
+        "https://ietf.org/support-us/endowment/",
+        "https://ietf.org/support-us/sponsorship/",
+        "https://ietf.org/support-us/technical-foundations/",
+        "https://ietf.org/support-us/why-support/"
+      ],
+      "text_hits": [],
+      "title": "IETF | Internet Engineering Task Force"
+    },
+    "reasoning": [
+      "highest rule score for likely_provider (0.45)",
+      "provider mentions: evolution"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_nro_net",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "nro.net",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://www.iana.org/numbers"
+    ]
+  },
+  {
+    "candidate_id": "candidate_datatracker_ietf_org",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "datatracker.ietf.org",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc2606",
+      "https://datatracker.ietf.org/doc/html/rfc6761"
+    ]
+  },
+  {
+    "candidate_id": "candidate_rfc-editor_org",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "rfc-editor.org",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc2606",
+      "https://datatracker.ietf.org/doc/html/rfc6761"
+    ]
+  },
+  {
+    "candidate_id": "candidate_github_com",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "github.com",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc2606",
+      "https://datatracker.ietf.org/doc/html/rfc6761"
+    ]
+  },
+  {
+    "candidate_id": "candidate_trustee_ietf_org",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "trustee.ietf.org",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc6761"
+    ]
+  },
+  {
+    "candidate_id": "candidate_res-dom_iana_org",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "res-dom.iana.org",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc6761"
+    ]
+  },
+  {
+    "candidate_id": "candidate_lists_icann_org",
+    "confidence_hint": 0.0,
+    "discovered_from": "sweeps_scout_pipeline",
+    "likely_type": "unknown",
+    "normalized_domain": "lists.icann.org",
+    "raw_evidence_snapshot": {
+      "note": "not extracted"
+    },
+    "reasoning": [
+      "no classification hint; discovery-only record"
+    ],
+    "source_urls": [
+      "https://www.iana.org/domains/root"
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+# Domains to never crawl (one per line, lowercase hostnames).

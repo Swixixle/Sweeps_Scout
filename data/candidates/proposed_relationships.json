@@ -1,0 +1,458 @@
+[
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__datatracker.ietf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc2606",
+    "to_domain": "datatracker.ietf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__datatracker.ietf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc6761",
+    "to_domain": "datatracker.ietf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__github.com",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc2606",
+    "to_domain": "github.com"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__github.com",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc6761",
+    "to_domain": "github.com"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__res-dom.iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc6761",
+    "to_domain": "res-dom.iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__rfc-editor.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc2606",
+    "to_domain": "rfc-editor.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__rfc-editor.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc6761",
+    "to_domain": "rfc-editor.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "datatracker.ietf.org",
+    "relationship_id": "rel_datatracker.ietf.org__to__trustee.ietf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://datatracker.ietf.org/doc/html/rfc6761",
+    "to_domain": "trustee.ietf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "example.com",
+    "relationship_id": "rel_example.com__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://example.com/",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__creativecommons.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "creativecommons.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__directory.fsf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "directory.fsf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__donate.fsf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "donate.fsf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__fsf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "fsf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__fsf.org.in",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "fsf.org.in"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__fsfe.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "fsfe.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__fsfla.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "fsfla.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__gnu.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "gnu.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__h-node.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "h-node.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__libreplanet.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "libreplanet.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__my.fsf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "my.fsf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__planet.gnu.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "planet.gnu.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__savannah.gnu.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "savannah.gnu.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__shop.fsf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "shop.fsf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__snowflake.torproject.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "snowflake.torproject.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "gnu.org",
+    "relationship_id": "rel_gnu.org__to__ushistory.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.gnu.org/",
+    "to_domain": "ushistory.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__afrinic.net",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "afrinic.net"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__apnic.net",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "apnic.net"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__arin.net",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "arin.net"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "http://www.iana.org/help/example-domains",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/about",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/reserved",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/root",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__iana.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/protocols",
+    "to_domain": "iana.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "http://www.iana.org/help/example-domains",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/about",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/reserved",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/root",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/protocols",
+    "to_domain": "icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__ietf.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "ietf.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__lacnic.net",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "lacnic.net"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__lists.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/root",
+    "to_domain": "lists.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__nro.net",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "nro.net"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "http://www.iana.org/help/example-domains",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/about",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/reserved",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/domains/root",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__pti.icann.org",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/protocols",
+    "to_domain": "pti.icann.org"
+  },
+  {
+    "first_seen": "2026-04-19T14:34:55.340661+00:00",
+    "from_domain": "iana.org",
+    "relationship_id": "rel_iana.org__to__ripe.net",
+    "relationship_kind": "discovered_link",
+    "source_url": "https://www.iana.org/numbers",
+    "to_domain": "ripe.net"
+  }
+]

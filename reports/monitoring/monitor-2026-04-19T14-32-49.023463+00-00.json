@@ -1,0 +1,53 @@
+{
+  "outputs": {
+    "discovered_domains": "/Users/alexmaksimovich/Sweeps_Scout/data/candidates/discovered_domains.json",
+    "extracted_signals": "/Users/alexmaksimovich/Sweeps_Scout/data/candidates/extracted_signals.json",
+    "intel_bridge": "/Users/alexmaksimovich/Sweeps_Scout/data/candidates/intel_bridge.json",
+    "proposed_entities": "/Users/alexmaksimovich/Sweeps_Scout/data/candidates/proposed_entities.json"
+  },
+  "repo_root": "/Users/alexmaksimovich/Sweeps_Scout",
+  "run_at": "2026-04-19T14:32:49.023463+00:00",
+  "steps": {
+    "classifier": {
+      "classified": 25,
+      "run_at": "2026-04-19T14:34:55.339668+00:00"
+    },
+    "discover": {
+      "max_depth": 1,
+      "max_pages": 12,
+      "pages_fetched": 12,
+      "redirects_recorded": 11,
+      "run_at": "2026-04-19T14:32:49.023736+00:00",
+      "unique_domains": 32
+    },
+    "emit": {
+      "entities": 32,
+      "relationships": 57,
+      "run_at": "2026-04-19T14:34:55.340661+00:00"
+    },
+    "extract": {
+      "from_discovered": true,
+      "run_at": "2026-04-19T14:32:54.042792+00:00",
+      "urls_processed": 25
+    },
+    "intel_bridge": {
+      "compared": 32,
+      "run_at": "2026-04-19T14:34:55.342335+00:00",
+      "snapshot_loaded": false
+    },
+    "redirects": {
+      "rebrand_phrases_tracked": [
+        "redirect",
+        "rebrand",
+        "formerly",
+        "previously",
+        "moved to",
+        "now at",
+        "our new home",
+        "we have moved"
+      ],
+      "run_at": "2026-04-19T14:34:55.336929+00:00",
+      "total_redirect_records": 21
+    }
+  }
+}

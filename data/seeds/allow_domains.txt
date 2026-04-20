@@ -1,0 +1,3 @@
+# Optional: if this file has no non-comment lines, all domains are allowed
+# except those in deny_domains.txt. Otherwise only these domains (and subdomains)
+# are followed for depth>0 crawls.
