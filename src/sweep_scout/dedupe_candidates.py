@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+from sweep_scout.normalize_candidates import confidence_label_from_score
 from sweep_scout.utils import deterministic_json_dumps, repo_root, sha256_text
 
 
@@ -48,16 +49,23 @@ def _should_link_by_brand_fold(a: dict[str, Any], b: dict[str, Any]) -> bool:
     return True
 
 
-def run_dedupe(
-    normalized_path: Path | None = None,
-    out_path: Path | None = None,
-) -> list[dict[str, Any]]:
-    root = repo_root()
-    normalized_path = normalized_path or (root / "data" / "candidates" / "normalized_candidate_rows.json")
-    out_path = out_path or (root / "data" / "candidates" / "deduped_candidates.json")
+def _confidence_float(row: dict[str, Any]) -> float:
+    c = row.get("confidence", 0.35)
+    try:
+        return float(c)
+    except (TypeError, ValueError):
+        return 0.35
 
-    rows: list[dict[str, Any]] = json.loads(normalized_path.read_text(encoding="utf-8"))
-    rows.sort(key=lambda r: str(r.get("candidate_id", "")))
+
+def _max_confidence_for_group(rows: list[dict[str, Any]], idxs: list[int]) -> tuple[float, str]:
+    scores = [_confidence_float(rows[k]) for k in idxs]
+    m = max(scores) if scores else 0.35
+    return m, confidence_label_from_score(m)
+
+
+def dedupe_normalized_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Union-find duplicate detection on normalized candidate dicts (markdown and/or bulk)."""
+    rows = sorted(rows, key=lambda r: str(r.get("candidate_id", "")))
     n = len(rows)
     uf = _UnionFind(n)
 
@@ -97,6 +105,7 @@ def run_dedupe(
         canon_id = canon_by_root[root_i]
         dg = group_id_by_root[root_i]
         members = [str(rows[k].get("candidate_id", "")) for k in idxs_sorted]
+        max_score, max_label = _max_confidence_for_group(rows, idxs_sorted)
         for k in idxs_sorted:
             r = dict(rows[k])
             cid = str(r.get("candidate_id", ""))
@@ -104,6 +113,8 @@ def run_dedupe(
                 r["duplicate_of"] = None
                 r["duplicate_group_id"] = dg
                 if len(members) > 1:
+                    r["confidence"] = round(max_score, 4)
+                    r["confidence_label"] = max_label
                     others = [m for m in members if m != cid]
                     r["merge_notes"] = "canonical row; duplicate_group=" + dg + "; merged_ids=" + ",".join(others)
                 else:
@@ -121,6 +132,19 @@ def run_dedupe(
             str(r.get("candidate_id", "")),
         )
     )
+    return out_rows
+
+
+def run_dedupe(
+    normalized_path: Path | None = None,
+    out_path: Path | None = None,
+) -> list[dict[str, Any]]:
+    root = repo_root()
+    normalized_path = normalized_path or (root / "data" / "candidates" / "normalized_candidate_rows.json")
+    out_path = out_path or (root / "data" / "candidates" / "deduped_candidates.json")
+
+    rows: list[dict[str, Any]] = json.loads(normalized_path.read_text(encoding="utf-8"))
+    out_rows = dedupe_normalized_rows(rows)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(deterministic_json_dumps(out_rows), encoding="utf-8")
     return out_rows

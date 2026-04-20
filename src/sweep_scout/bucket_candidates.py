@@ -116,6 +116,24 @@ def classify_canonical(row: dict[str, Any]) -> tuple[str, str]:
     return "operators", "operator"
 
 
+def _confidence_csv_value(row: dict[str, Any]) -> str:
+    """Format ``row['confidence']`` as a fixed-point string (normalized + deduped rows use numeric scores)."""
+    c = row.get("confidence", 0.35)
+    if isinstance(c, (int, float)):
+        return f"{float(c):.4f}"
+    s = str(c).strip().lower()
+    if s in ("high",):
+        return "0.7500"
+    if s in ("medium", "med"):
+        return "0.5500"
+    if s in ("low",):
+        return "0.3500"
+    try:
+        return f"{float(s):.4f}"
+    except ValueError:
+        return "0.3500"
+
+
 def _row_to_csv_dict(row: dict[str, Any], entity_type_hint: str) -> dict[str, str]:
     other = row.get("alias_candidates") or row.get("other_domains") or []
     if isinstance(other, list):
@@ -131,7 +149,7 @@ def _row_to_csv_dict(row: dict[str, Any], entity_type_hint: str) -> dict[str, st
         "notes": str(row.get("notes", "")),
         "source_url": str(row.get("source_url", "")),
         "source_set": str(row.get("source_set", "")),
-        "confidence": str(row.get("confidence", "low")),
+        "confidence": _confidence_csv_value(row),
         "review_status": str(row.get("review_status", "needs_review")),
         "duplicate_group_id": str(row.get("duplicate_group_id", "")),
         "merge_notes": str(row.get("merge_notes", "")),

@@ -3,10 +3,10 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from sweep_scout.bucket_candidates import CSV_FIELDS, classify_canonical, run_bucket
-from sweep_scout.dedupe_candidates import brand_fold, run_dedupe
+from sweep_scout.bucket_candidates import CSV_FIELDS, _confidence_csv_value, classify_canonical, run_bucket
+from sweep_scout.dedupe_candidates import brand_fold, dedupe_normalized_rows, run_dedupe
 from sweep_scout.intake_tables import parse_raw_source_file, run_intake
-from sweep_scout.normalize_candidates import normalize_domain, run_normalize
+from sweep_scout.normalize_candidates import confidence_label_from_score, normalize_domain, parse_confidence, run_normalize
 
 
 SET1_MD = """| brand | primary_domain | other_domains | category | notes | source_url |
@@ -39,6 +39,50 @@ def test_parse_markdown_tables(tmp_path: Path):
 def test_normalize_domains():
     assert normalize_domain("HTTPS://WWW.Chanced.COM/path?q=1") == "chanced.com"
     assert normalize_domain("nolimitcoins.com") == "nolimitcoins.com"
+
+
+def test_parse_confidence_numeric_and_labels():
+    assert parse_confidence("") == ("low", 0.35)
+    assert parse_confidence("0.6") == ("medium", 0.6)
+    assert parse_confidence("75%") == ("high", 0.75)
+    assert parse_confidence("high") == ("high", 0.75)
+
+
+def test_confidence_label_from_score_matches_parse_confidence_numeric():
+    assert confidence_label_from_score(0.44) == "low"
+    assert confidence_label_from_score(0.45) == "medium"
+    assert confidence_label_from_score(0.69) == "medium"
+    assert confidence_label_from_score(0.7) == "high"
+    label, score = parse_confidence("0.62")
+    assert label == confidence_label_from_score(score)
+
+
+def test_dedupe_canonical_propagates_max_numeric_confidence():
+    rows = [
+        {
+            "candidate_id": "c_a",
+            "brand": "SameBrand",
+            "normalized_primary_domain": "same.com",
+            "confidence": 0.4,
+            "confidence_label": "medium",
+        },
+        {
+            "candidate_id": "c_b",
+            "brand": "SameBrand",
+            "normalized_primary_domain": "same.com",
+            "confidence": 0.85,
+            "confidence_label": "high",
+        },
+    ]
+    out = dedupe_normalized_rows(rows)
+    canon = [r for r in out if r.get("duplicate_of") is None][0]
+    assert canon["candidate_id"] == "c_a"
+    assert canon["confidence"] == 0.85
+    assert canon["confidence_label"] == "high"
+    dup = [r for r in out if r.get("duplicate_of")][0]
+    assert dup["candidate_id"] == "c_b"
+    assert dup["confidence"] == 0.85
+    assert dup["duplicate_of"] == "c_a"
 
 
 def test_dedupe_chanced_nolimit_funz(tmp_path: Path, monkeypatch):
@@ -147,3 +191,8 @@ def test_raw_intake_json_sorted_deterministic(tmp_path: Path, monkeypatch):
 def test_csv_columns_order():
     assert CSV_FIELDS[0] == "brand"
     assert CSV_FIELDS[-1] == "merge_notes"
+
+
+def test_bucket_csv_preserves_numeric_confidence_string():
+    assert _confidence_csv_value({"confidence": 0.8123}) == "0.8123"
+    assert _confidence_csv_value({"confidence": "0.5"}) == "0.5000"

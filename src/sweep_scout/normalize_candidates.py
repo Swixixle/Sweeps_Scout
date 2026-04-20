@@ -5,7 +5,6 @@ import json
 import re
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
 
 from sweep_scout.utils import deterministic_json_dumps, repo_root, sha256_text
 
@@ -19,6 +18,41 @@ def _get_field(row: dict[str, Any], *names: str) -> str:
         if ln in lower and lower[ln] is not None:
             return str(lower[ln]).strip()
     return ""
+
+
+def confidence_label_from_score(score: float) -> str:
+    """Bucket a numeric score in [0, 1] into high / medium / low (same thresholds as ``parse_confidence``)."""
+    v = float(score)
+    v = min(1.0, max(0.0, v))
+    if v >= 0.7:
+        return "high"
+    if v >= 0.45:
+        return "medium"
+    return "low"
+
+
+def parse_confidence(raw: str) -> tuple[str, float]:
+    """Map optional source text to (label, score in [0,1]). Defaults are conservative."""
+    s = (raw or "").strip()
+    if not s:
+        return "low", 0.35
+    sl = s.lower()
+    if sl in ("high", "hi"):
+        return "high", 0.75
+    if sl in ("medium", "med", "mid"):
+        return "medium", 0.55
+    if sl in ("low",):
+        return "low", 0.35
+    try:
+        t = s.replace("%", "").strip()
+        v = float(t)
+        if "%" in raw or v > 1.0:
+            v = min(1.0, max(0.0, v / 100.0))
+        else:
+            v = min(1.0, max(0.0, v))
+        return confidence_label_from_score(v), round(v, 4)
+    except ValueError:
+        return "low", 0.35
 
 
 def _split_other_domains(s: str) -> list[str]:
@@ -74,10 +108,13 @@ def normalize_intake_row(row: dict[str, Any], seq: int) -> dict[str, Any]:
     source_set = _get_field(row, "source_set", "source set") or "unknown"
     source_path = _get_field(row, "source_path", "source path")
     intake_row_index = row.get("intake_row_index", seq)
+    raw_conf = _get_field(row, "confidence", "Confidence")
 
     primary_norm = normalize_domain(raw_primary)
     raw_other_parts = _split_other_domains(raw_other)
     alias_candidates = sorted({normalize_domain(x) for x in raw_other_parts if normalize_domain(x)})
+
+    confidence_label, confidence_score = parse_confidence(raw_conf)
 
     candidate_id = _stable_candidate_id(
         [
@@ -93,7 +130,8 @@ def normalize_intake_row(row: dict[str, Any], seq: int) -> dict[str, Any]:
     return {
         "candidate_id": candidate_id,
         "review_status": "needs_review",
-        "confidence": "low",
+        "confidence": confidence_score,
+        "confidence_label": confidence_label,
         "entity_type_hint": "unknown",
         "alias_candidates": alias_candidates,
         "brand": " ".join(brand.split()),
@@ -107,6 +145,7 @@ def normalize_intake_row(row: dict[str, Any], seq: int) -> dict[str, Any]:
         "source_set": source_set,
         "source_path": source_path,
         "intake_row_index": int(intake_row_index) if str(intake_row_index).isdigit() else intake_row_index,
+        "intake_channel": "markdown",
     }
 
 
