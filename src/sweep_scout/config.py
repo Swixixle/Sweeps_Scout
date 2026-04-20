@@ -19,6 +19,7 @@ def paths_for_repo(repo_root: Path) -> dict[str, Path]:
         "candidates": r / "data" / "candidates",
         "reports_discovery": r / "reports" / "discovery",
         "reports_extraction": r / "reports" / "extraction",
+        "reports_fingerprinting": r / "reports" / "fingerprinting",
         "reports_monitoring": r / "reports" / "monitoring",
         "seed_urls": r / "data" / "seeds" / "seed_urls.txt",
         "allow_domains": r / "data" / "seeds" / "allow_domains.txt",
@@ -30,10 +31,18 @@ def paths_for_repo(repo_root: Path) -> dict[str, Path]:
         "extracted_signals": r / "data" / "candidates" / "extracted_signals.json",
         "proposed_entities": r / "data" / "candidates" / "proposed_entities.json",
         "proposed_relationships": r / "data" / "candidates" / "proposed_relationships.json",
+        "domain_fingerprints": r / "data" / "candidates" / "domain_fingerprints.json",
     }
 
 
 def ensure_dirs(repo_root: Path) -> None:
     p = paths_for_repo(repo_root)
-    for key in ("cache", "candidates", "reports_discovery", "reports_extraction", "reports_monitoring"):
+    for key in (
+        "cache",
+        "candidates",
+        "reports_discovery",
+        "reports_extraction",
+        "reports_fingerprinting",
+        "reports_monitoring",
+    ):
         p[key].mkdir(parents=True, exist_ok=True)
