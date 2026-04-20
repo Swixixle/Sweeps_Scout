@@ -12,3 +12,4 @@ env/
 data/cache/
 *.log
 .DS_Store
+ignition_data/
