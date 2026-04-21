@@ -226,6 +226,111 @@ def test_seed_404_does_not_abort_other_seeds(tmp_path: Path, monkeypatch) -> Non
     assert len(pages) == 2
 
 
+def test_seed_apex_hosts_in_discovered_domains(tmp_path: Path, monkeypatch) -> None:
+    """Each seed's apex appears in discovered_domains.json with seed provenance."""
+    _discover_fixtures(
+        tmp_path,
+        "https://www.foo.com/a\nhttps://bar.com/\nhttps://baz.com/path\n",
+    )
+    import sweep_scout.discover as d
+
+    def fake_fetch(url, **kwargs):
+        class R:
+            final_url = url
+            status = 200
+            content_type = "text/html"
+            body = b"<html><body></body></html>"
+            error = None
+            fetched_at = "t"
+            headers = {}
+
+        return R()
+
+    monkeypatch.setattr(d, "fetch_url", fake_fetch)
+    run_discover(tmp_path, max_depth=0, max_pages=5)
+    rows = json.loads(
+        (tmp_path / "data" / "candidates" / "discovered_domains.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    by_dom = {r["domain"]: r for r in rows}
+    assert set(by_dom) == {"foo.com", "bar.com", "baz.com"}
+    for dom in ("foo.com", "bar.com", "baz.com"):
+        assert by_dom[dom]["sources"] == ["seed"]
+
+
+def test_denied_seed_host_not_in_discovered_domains(tmp_path: Path, monkeypatch) -> None:
+    seeds = tmp_path / "data" / "seeds"
+    seeds.mkdir(parents=True)
+    (seeds / "seed_urls.txt").write_text(
+        "https://allowed.example/\nhttps://denied-seed.example/\n",
+        encoding="utf-8",
+    )
+    (seeds / "allow_domains.txt").write_text("", encoding="utf-8")
+    (seeds / "deny_domains.txt").write_text("denied-seed.example\n", encoding="utf-8")
+    (seeds / "bootstrap_domains.txt").write_text("", encoding="utf-8")
+
+    import sweep_scout.discover as d
+
+    def fake_fetch(url, **kwargs):
+        class R:
+            final_url = url
+            status = 200
+            content_type = "text/html"
+            body = b"<html><body></body></html>"
+            error = None
+            fetched_at = "t"
+            headers = {}
+
+        return R()
+
+    monkeypatch.setattr(d, "fetch_url", fake_fetch)
+    run_discover(tmp_path, max_depth=0, max_pages=5)
+    rows = json.loads(
+        (tmp_path / "data" / "candidates" / "discovered_domains.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    domains = {r["domain"] for r in rows}
+    assert "allowed.example" in domains
+    assert "denied-seed.example" not in domains
+
+
+def test_seed_and_outbound_same_domain_merged_provenance(tmp_path: Path, monkeypatch) -> None:
+    """One row per domain; sources lists both seed and outbound_link."""
+    _discover_fixtures(
+        tmp_path,
+        "https://foo.com/start\n",
+    )
+    import sweep_scout.discover as d
+
+    def fake_fetch(url, **kwargs):
+        class R:
+            final_url = url
+            status = 200
+            content_type = "text/html"
+            body = b"<html><body></body></html>"
+            error = None
+            fetched_at = "t"
+            headers = {}
+
+        r = R()
+        if "foo.com" in url:
+            r.body = b'<html><body><a href="https://foo.com/linked">x</a></body></html>'
+        return r
+
+    monkeypatch.setattr(d, "fetch_url", fake_fetch)
+    run_discover(tmp_path, max_depth=0, max_pages=5)
+    rows = json.loads(
+        (tmp_path / "data" / "candidates" / "discovered_domains.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    assert len(rows) == 1
+    assert rows[0]["domain"] == "foo.com"
+    assert rows[0]["sources"] == ["outbound_link", "seed"]
+
+
 def test_duplicate_seed_urls_fetched_once(tmp_path: Path, monkeypatch) -> None:
     _discover_fixtures(
         tmp_path,

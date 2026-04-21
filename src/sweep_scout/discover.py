@@ -27,6 +27,48 @@ def _should_crawl_url(url: str, allow: list[str], deny: list[str]) -> bool:
     return host_matches_allowlist(d, allow)
 
 
+def _merge_seed_domains(
+    domain_map: dict[str, dict],
+    seed_urls: list[str],
+    deny: list[str],
+    ts: str,
+) -> None:
+    """Ensure each non-denied seed apex is present like an outbound discovery row."""
+    for s in seed_urls:
+        nu = normalize_url(s)
+        if not nu:
+            continue
+        dom = domain_from_url(nu)
+        if not dom or host_in_denylist(dom, deny):
+            continue
+        key = dom
+        if key not in domain_map:
+            domain_map[key] = {
+                "domain": dom,
+                "source_url": nu,
+                "discovered_url": nu,
+                "final_url": nu,
+                "first_seen": ts,
+                "discovery_type": "seed",
+                "sources": ["seed"],
+            }
+            continue
+        ex = domain_map[key]
+        if "source_urls" not in ex:
+            ex["source_urls"] = [ex["source_url"]]
+        if nu not in ex["source_urls"]:
+            ex["source_urls"].append(nu)
+        prev_sources = set(ex.get("sources") or [])
+        if not prev_sources:
+            prev_sources = {
+                "outbound_link"
+                if ex.get("discovery_type") == "outbound_link"
+                else "seed"
+            }
+        prev_sources.add("seed")
+        ex["sources"] = sorted(prev_sources)
+
+
 def run_discover(
     repo_root: Path,
     *,
@@ -127,6 +169,7 @@ def run_discover(
                     "final_url": link,
                     "first_seen": ts,
                     "discovery_type": "outbound_link",
+                    "sources": ["outbound_link"],
                 }
                 if key not in domain_map:
                     domain_map[key] = rec
@@ -136,10 +179,18 @@ def run_discover(
                         ex["source_urls"] = [ex["source_url"]]
                     if page_source not in ex["source_urls"]:
                         ex["source_urls"].append(page_source)
+                    if "sources" not in ex:
+                        ex["sources"] = (
+                            ["outbound_link"]
+                            if ex.get("discovery_type") == "outbound_link"
+                            else ["seed"]
+                        )
 
                 if depth < max_depth and _should_crawl_url(link, allow, deny):
                     if link not in seen_fetch:
                         queue.append((link, depth + 1, page_source, "crawl"))
+
+    _merge_seed_domains(domain_map, seeds, deny, ts)
 
     discovered_domains = list(domain_map.values())
     for r in discovered_domains:
@@ -147,6 +198,11 @@ def run_discover(
             r["source_urls"] = [r["source_url"]]
         r["source_urls"] = sorted(set(r["source_urls"]))
         r["source_url"] = r["source_urls"][0] if r["source_urls"] else ""
+        if "sources" not in r:
+            dt = r.get("discovery_type")
+            r["sources"] = ["seed"] if dt == "seed" else ["outbound_link"]
+        else:
+            r["sources"] = sorted(set(r["sources"]))
 
     paths["candidates"].mkdir(parents=True, exist_ok=True)
     paths["reports_discovery"].mkdir(parents=True, exist_ok=True)
