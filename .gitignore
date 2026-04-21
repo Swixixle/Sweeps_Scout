@@ -20,3 +20,6 @@ reports/
 # Pipeline outputs — regenerated on each run, not source of truth
 # Committed versions remain in git history; stop tracking further changes
 data/candidates/
+
+# Transient seed backups
+data/seeds/*.bak
