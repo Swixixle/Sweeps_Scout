@@ -1,1 +1,3 @@
 # Domains to never crawl (one per line, lowercase hostnames).
+stakester.com
+www.stakester.com

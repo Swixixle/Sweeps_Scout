@@ -1,16 +1,4 @@
-# One URL per line. Lines starting with # are ignored.
-
-# Sweeps casino listing/ranking sites (high-discovery)
-https://www.covers.com/sweepstakes-casino
-https://www.gamblingnews.com/casino/sweepstakes/
-https://time.com/personal-finance/article/best-sweepstakes-casinos/
-
-# Known operators (fingerprinting + TLS SAN clustering)
-https://chumbacasino.com/
-https://luckylandslots.com/
-https://pulsz.com/
-https://stake.us/
-https://fortunecoins.com/
-https://crowncoins.com/
-https://wowvegas.com/
-https://highroller.com/
+# Listing sites only — discover the operators THEY recommend, not ones we already know
+# Paths verified 2026-04-21 (previous /sweepstakes-casino and /casino/sweepstakes/ returned 404)
+https://www.covers.com/casino/sweepstakes
+https://www.gamblingnews.com/online-casinos/sweepstakes/
