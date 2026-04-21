@@ -1,6 +1,6 @@
 # Sweeps_Scout
 
-Sweeps_Scout is the discovery-side component of a three-repo sweepstakes and social-casino accountability pipeline. It crawls seed URLs, extracts page-level signals, fingerprints domains with DNS and TLS metadata, and emits candidate entities and relationships for review in **Sweeps_Intel**. The codebase is **stdlib-only at runtime** (`dependencies = []` in `pyproject.toml`), local-first, and writes **deterministic JSON** artifacts.
+Sweeps_Scout is the discovery-side component of a three-repo sweepstakes and social-casino accountability pipeline. It crawls seed URLs, extracts page-level signals, fingerprints domains with DNS and TLS metadata, and emits candidate entities and relationships for review in **Sweeps_Intel**. Runtime dependencies are minimal: **`cryptography`** is required for optional **Ed25519 signing** of fingerprint exports (envelope format in [`docs/SIGNING.md`](https://github.com/Swixixle/Sweeps_Intel/blob/main/docs/SIGNING.md) in Sweeps_Intel); all other packaged code is **stdlib-first** for network I/O. Outputs are **deterministic JSON** artifacts.
 
 Scout does not ship reviewed truth, blocklists, or enforcement—those live in Intel and Relief.
 
@@ -47,7 +47,25 @@ pip install -e ".[dev]"
 pytest
 ```
 
-Runtime **`dependencies = []`** is intentional: new features that touch the network should stay stdlib (see `src/sweep_scout/_dns.py`, `src/sweep_scout/_tls.py`). Dev-only tools use `[project.optional-dependencies] dev` (e.g. pytest).
+### Optional: signed fingerprint outputs
+
+Scout can sign its `domain_fingerprints.json` for downstream verification by Intel:
+
+```bash
+# First-time key setup
+python -m sweep_scout.fingerprint --generate-keypair ./keys
+
+# Signed fingerprint run
+python -m sweep_scout.fingerprint \
+  --repo-root . \
+  --sign \
+  --private-key ./keys/private.pem \
+  --key-id scout-fingerprint-key-v1
+```
+
+The public key at `./keys/public.pem` must be copied into Intel’s trust store (`trust_store.json`) for verification. See `docs/SIGNING.md` in [Sweeps_Intel](https://github.com/Swixixle/Sweeps_Intel) for the envelope spec.
+
+Runtime **`dependencies`** in `pyproject.toml` include **`cryptography>=42`** as the single intentional non-stdlib dependency (Ed25519 must not be implemented by hand). Network discovery code (`src/sweep_scout/_dns.py`, `src/sweep_scout/_tls.py`) remains stdlib. Dev-only tools use `[project.optional-dependencies] dev` (e.g. pytest).
 
 ## Running the pipeline
 
@@ -101,7 +119,7 @@ Intel remains the review gate; Scout never writes Intel’s production truth fil
 
 ## Development notes
 
-- **Zero runtime deps** — keep new I/O in the standard library unless the project explicitly changes policy.
+- **Minimal runtime deps** — `cryptography` is the only non-stdlib dependency (signing). Keep all other I/O in the standard library unless the project explicitly changes policy.
 - **Logging** — module-level `logging.getLogger(__name__)`; narrow catches (`socket.timeout`, `gaierror`, `SSLError`, `OSError`) where appropriate; avoid bare `except`.
 - **Determinism** — JSON via `deterministic_json_dumps` (`sort_keys`, stable formatting) for reproducible artifacts.
 - **History** — prefer small, scoped commits; messages should read as an audit trail.
