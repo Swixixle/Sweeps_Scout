@@ -6,6 +6,7 @@ from pathlib import Path
 
 import pytest
 
+from sweep_scout._signing import generate_keypair
 from sweep_scout.fingerprint import fingerprint_domain, run_fingerprint
 
 
@@ -92,3 +93,24 @@ def test_run_fingerprint_writes_artifacts(tmp_path: Path):
     assert rep["domains_processed"] == 1
     reps = list((tmp_path / "reports" / "fingerprinting").glob("fingerprint-*.json"))
     assert len(reps) == 1
+
+
+def test_run_fingerprint_signed_envelope_empty_domains(tmp_path: Path) -> None:
+    (tmp_path / "data" / "candidates").mkdir(parents=True)
+    (tmp_path / "data" / "candidates" / "discovered_domains.json").write_text("[]", encoding="utf-8")
+    kdir = tmp_path / "keys"
+    generate_keypair(kdir)
+    rep = run_fingerprint(
+        tmp_path,
+        max_domains=5,
+        sign=True,
+        private_key_path=kdir / "private.pem",
+        key_id="scout-fingerprint-key-v1",
+    )
+    raw = json.loads((tmp_path / "data" / "candidates" / "domain_fingerprints.json").read_text(encoding="utf-8"))
+    assert "payload" in raw and "signature" in raw
+    assert raw["payload"]["artifact_type"] == "domain_fingerprints"
+    assert raw["payload"]["fingerprints"] == []
+    assert raw["signature"]["key_id"] == "scout-fingerprint-key-v1"
+    assert rep.get("signed") is True
+    assert rep["key_id"] == "scout-fingerprint-key-v1"
