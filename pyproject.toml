@@ -8,7 +8,9 @@ version = "0.1.0"
 description = "Active discovery and monitoring for the sweeps ecosystem (candidates only, not reviewed truth)."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+# Single runtime dependency: Ed25519 signing for optional signed artifacts (envelope per docs/SIGNING.md).
+# Do not hand-roll crypto; use cryptography.
+dependencies = ["cryptography>=42"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
