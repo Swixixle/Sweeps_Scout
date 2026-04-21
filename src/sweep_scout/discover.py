@@ -53,17 +53,29 @@ def run_discover(
     domain_map: dict[str, dict] = {}
     seen_fetch: set[str] = set()
 
+    # max_pages is a budget for pages discovered via outbound links (how=="crawl"),
+    # not for seed URLs. Seeds are always fetched so a link-heavy early seed cannot
+    # starve later seeds (e.g. time.com exhausting the budget before operator homepages).
+    # BFS order is unchanged: all seeds are enqueued first and processed before any
+    # depth>0 URL from the first seed's HTML.
+    crawl_fetches = 0
+
     queue: deque[tuple[str, int, str, str]] = deque()
     for s in seeds:
         nu = normalize_url(s)
         if nu:
             queue.append((nu, 0, nu, "seed"))
 
-    while queue and len(pages) < max_pages:
+    while queue:
         url, depth, source_url, how = queue.popleft()
         if url in seen_fetch:
             continue
+        if how == "crawl" and crawl_fetches >= max_pages:
+            continue
+
         seen_fetch.add(url)
+        if how == "crawl":
+            crawl_fetches += 1
 
         fr = fetch_url(url, cache_dir=cache_dir)
         final = fr.final_url or url
