@@ -13,3 +13,6 @@ data/cache/
 *.log
 .DS_Store
 ignition_data/
+
+# Run outputs (transient, regenerable)
+reports/
