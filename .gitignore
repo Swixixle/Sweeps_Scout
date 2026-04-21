@@ -16,3 +16,7 @@ ignition_data/
 
 # Run outputs (transient, regenerable)
 reports/
+
+# Pipeline outputs — regenerated on each run, not source of truth
+# Committed versions remain in git history; stop tracking further changes
+data/candidates/
