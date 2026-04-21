@@ -110,7 +110,7 @@ def test_run_fingerprint_signed_envelope_empty_domains(tmp_path: Path) -> None:
     raw = json.loads((tmp_path / "data" / "candidates" / "domain_fingerprints.json").read_text(encoding="utf-8"))
     assert "payload" in raw and "signature" in raw
     assert raw["payload"]["artifact_type"] == "domain_fingerprints"
-    assert raw["payload"]["fingerprints"] == []
+    assert raw["payload"]["fingerprints"] == {}
     assert raw["signature"]["key_id"] == "scout-fingerprint-key-v1"
     assert rep.get("signed") is True
     assert rep["key_id"] == "scout-fingerprint-key-v1"

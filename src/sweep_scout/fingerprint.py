@@ -188,7 +188,7 @@ def run_fingerprint(
         payload: dict[str, Any] = {
             "artifact_type": "domain_fingerprints",
             "generated_at": _generated_at_z(),
-            "fingerprints": records,
+            "fingerprints": {rec["domain"]: rec for rec in records},
         }
         envelope = sign_envelope(payload, private_key, key_id)
         paths["domain_fingerprints"].write_text(deterministic_json_dumps(envelope), encoding="utf-8")
