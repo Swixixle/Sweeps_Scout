@@ -23,3 +23,6 @@ data/candidates/
 
 # Transient seed backups
 data/seeds/*.bak
+
+# local Claude Code settings
+.claude/settings.local.json
